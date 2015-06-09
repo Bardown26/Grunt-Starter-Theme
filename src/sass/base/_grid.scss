@@ -1,0 +1,688 @@
+/*------------------------------------*\
+    GRID
+\*------------------------------------*/
+
+/* Breakpoints */
+$small-break: max-width 480px;
+$med-break: max-width 820px;
+$tablet:screen (min-device-width 768px) (max-device-width 1024px);
+$large-break: max-width 1024px;
+$break2: 768px;
+$break3: max-width 850px;
+
+/*  SECTIONS  ============================================================================= */
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media {
+  img {
+    width: auto; /* for ie 8 */
+  }
+}
+
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.group:before,
+.group:after {
+  content:"";
+  display:table;
+}
+.group:after {
+  clear:both;
+}
+.group {
+  /* zoom:1; */ /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ============================================================================= */
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  height: auto;
+  position: relative;
+  clear:both;
+  @include breakpoint (($large-break, $tablet)){
+    width:90%;
+  }
+}
+
+.fullcontainer {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto;
+  position: relative;
+}
+
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.cols {
+  display: block;
+  float:left;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+}
+
+/*  GRID OF TWO   ============================================================================= */
+
+
+.span2-2 {
+  width: 100%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span1-2 {
+  width: 49.2%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+/*  GRID OF THREE   ============================================================================= */
+
+
+.span3-3 {
+  width: 100%;
+  @include breakpoint ($large-break){
+    width: 49%;
+  }
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span2-3 {
+  width: 66.1%;
+  @include breakpoint ($large-break){
+    width: 49%;
+  }
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span1-3 {
+  width: 32.2%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+
+/*  GRID OF FOUR   ============================================================================= */
+
+
+.span4-4 {
+  width: 100%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span3-4 {
+  width: 74.6%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span2-4 {
+  width: 49.2%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span1-4 {
+  width: 23.8%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+/*  GRID OF FIVE   ============================================================================= */
+
+
+.span5-5 {
+  width: 100%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span4-5 {
+  width: 79.68%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span3-5 {
+  width: 59.36%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span2-5 {
+  width: 39.04%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span1-5 {
+  width: 18.72%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+/*  GRID OF SIX   ============================================================================= */
+
+
+.span6-6 {
+  width: 100%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span5-6 {
+  width: 83.06%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span4-6 {
+  width: 66.13%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span3-6 {
+  width: 49.2%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span2-6 {
+  width: 32.26%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span1-6 {
+  width: 15.33%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+
+/*  GRID OF SEVEN   ============================================================================= */
+
+
+.span7-7 {
+  width: 100%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span6-7 {
+  width: 85.48%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span5-7 {
+  width: 70.97%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span4-7 {
+  width: 56.45%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span3-7 {
+  width: 41.92%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span2-7 {
+  width: 27.42%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span1-7 {
+  width: 12.91%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+
+/*  GRID OF EIGHT   ============================================================================= */
+
+
+.span8-8 {
+  width: 100%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span7-8 {
+  width: 87.3%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span6-8 {
+  width: 74.6%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span5-8 {
+  width: 61.9%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span4-8 {
+  width: 49.2%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span3-8 {
+  width: 36.5%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span2-8 {
+  width: 23.8%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span1-8 {
+  width: 11.1%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+/*  GRID OF NINE   ============================================================================= */
+
+
+.span9-9 {
+  width: 100%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span8-9 {
+  width: 88.71%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span7-9 {
+  width: 77.42%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span6-9 {
+  width: 66.13%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span5-9{
+  width: 54.84%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span4-9 {
+  width: 43.55%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span3-9 {
+  width: 32.26%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span2-9 {
+  width: 20.97%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span1-9 {
+  width: 9.68%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+
+/*  GRID OF TEN   ============================================================================= */
+
+
+.span10-10 {
+  width: 100%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span9-10 {
+  width: 89.84%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span8-10 {
+  width: 79.68%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span7-10 {
+  width: 69.52%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span6-10 {
+  width: 59.36%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span5-10 {
+  width: 49.2%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span4-10 {
+  width: 39.04%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span3-10 {
+  width: 28.88%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span2-10 {
+  width: 18.72%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span1-10 {
+  width: 8.56%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+/*  GRID OF ELEVEN   ============================================================================= */
+
+.span11-11 {
+  width: 100%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span10-11 {
+  width: 90.7%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span9-11 {
+  width: 81.47%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span8-11 {
+  width: 72.24%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span7-11 {
+  width: 63.01%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span6-11 {
+  width: 53.78%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span5-11 {
+  width: 44.55%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span4-11 {
+  width: 35.32%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span3-11 {
+  width: 26.09%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span2-11 {
+  width: 16.86%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span1-11 {
+  width: 7.63%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+/*  GRID OF TWELVE   ============================================================================= */
+
+.span12-12 {
+  width: 100%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span11-12 {
+  width: 91.46%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span10-12 {
+  width: 83%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span9-12 {
+  width: 74.54%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span8-12 {
+  width: 66.08%;
+  @include breakpoint ($med-break){
+    width: 100%;
+  }
+}
+
+.span7-12 {
+  width: 57.62%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span6-12 {
+  width: 49.16%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span5-12 {
+  width: 40.7%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span4-12 {
+  width: 32.24%;
+  @include breakpoint ($med-break){
+    width: 100%;
+  }
+}
+
+.span3-12 {
+  width: 23.78%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span2-12 {
+  width: 15.32%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+.span1-12 {
+  width: 6.86%;
+  @include breakpoint ($small-break){
+    width: 100%;
+  }
+}
+
+
+/*  MAKE LAYOUT RESPONSIVE at 1024px FOR SMALLER SCREENS ================================================================ */
+
+
+
+
+#container{
+  @include breakpoint ($large-break){
+    width: 93.75%; /* 960px / 1024px */
+  }
+}
+
+.container{
+  @include breakpoint ($large-break){
+    width: 93.75%; /* 960px / 1024px */
+  }
+}
+

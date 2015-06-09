@@ -1,0 +1,166 @@
+module.exports = function(grunt){
+
+
+    // Configure Tasks
+    grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
+
+            wordpressdeploy: {
+                options: {
+                    backup_dir: "backups/",
+                    rsync_args: ['--verbose', '--progress', '-rlpt', '--compress', '--omit-dir-times', '--delete'],
+                    exclusions: ['Gruntfile.js', '.git/', 'tmp/*', 'backups/','wp-config.php', 'composer.json', 'composer.lock', 'README.md', '.gitignore', 'package.json', 'node_modules']
+                },
+                local: {
+                    "title": "local",
+                    "database": "stagingandrewatieh",
+                    "user": "root",
+                    "pass": "root",
+                    "host": "localhost",
+                    "url": "http://andrewatieh:8888",
+                    "path": "/Users/andrewatieh/Desktop/Websites/andrewatieh/local/"
+                },
+                staging: {
+                    "title": "staging",
+                    "database": "stagingandrewati",
+                    "user": "stagingandrewati",
+                    "pass": "K4sm5xqXb!",
+                    "host": "184.168.159.1",
+                    "url": "http://staging.andrewatieh.com",
+                    "path": "/home/content/95/11573595/html/staging",
+                    "ssh_host": "e5674588@184.168.159.1"
+                },
+                //Current GoDaddy config has DB on different server than site files
+                stagingdb: {
+                    "title": "stagingdb",
+                    "database": "stagingandrewati",
+                    "user": "stagingandrewati",
+                    "pass": "K4sm5xqXb!",
+                    "host": "stagingandrewati.db.11573595.hostedresource.com",
+                    "url": "http://staging.andrewatieh.com",
+                    "path": "/home/content/95/11573595/html/staging",
+                    "ssh_host": "e5674588@184.168.159.1"
+                }
+        },
+        bowercopy: {
+            options: {
+                srcPrefix: 'bower_components'
+            },
+            scripts: {
+                options: {
+                    destPrefix: 'src/js/vendor'
+                },
+                files: {
+                    'jquery.js': 'jquery/src/jquery.js', //{deskPrefix} go here : {srcPrefix} get from here
+                    'fullpage.js': 'fullpage.js/jquery.fullpage.js' //{deskPrefix} go here : {srcPrefix} get from here
+                }
+            },
+            css: {
+                options: {
+                    destPrefix: 'src/sass/vendor'
+                },
+                files: {
+                    '_fullpage.scss': 'fullpage.js/jquery.fullPage.scss', //{deskPrefix} go here : {srcPrefix} get from here
+                    'font-awesome': 'font-awesome/scss' //{deskPrefix} go here : {srcPrefix} get from here
+                }
+            }
+        },
+        uglify : {
+            build :{
+                src :'src/js//**/*.js', //where the working js file lives (* is a wildcard)
+                dest: 'js/scripts.min.js' // where the final minified concatenated file lives (output file)
+            },
+            dev: {
+                options:{
+                    beautify:true,
+                    mangle:false,
+                    compress:false,
+                    preserveComments: 'all'
+                },
+                src: 'src/js/**/*.js',
+                dest: 'js/scripts.min.js'
+            }
+        },
+        sass: {                  // Task
+            dev: {
+                options: {
+                   lineNumbers:true,
+                   sourceComments: 'true',
+                   outputStyle:'expanded'
+                },
+                files: {
+                    'style.css' : 'src/sass/style.scss'
+                }
+            },
+            build: {
+                options: {
+                    outputStyle:'compressed'
+                },
+                files: {
+                    'style.css' : 'src/sass/style.scss'
+                }
+            }
+        },
+
+        watch: {
+
+          js: {
+              files: ['src/js/*.js'],
+              tasks: ['uglify:dev'],
+              options : {
+                  livereload : 35729
+              }
+          },
+          css : {
+              files:['src/sass/**/*.scss'],
+              tasks: ['sass:dev'],
+              options : {
+                  livereload : 35729
+              }
+          },
+          php: {
+              files: ['**/*.php'],
+              options: {
+                  livereload: 35729
+              }
+          }
+
+        }
+    });
+
+
+    // Load the Plugins
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-sass');
+    grunt.loadNpmTasks('grunt-wordpress-deploy');
+    grunt.loadNpmTasks('grunt-mysql-dump');
+    grunt.loadNpmTasks('grunt-bowercopy');
+
+    // Register Tasks
+    grunt.registerTask('default', ['uglify:dev', 'sass:dev']);
+    grunt.registerTask('build', ['uglify:build', 'sass:build']);
+
+    grunt.registerTask('deployfiles',
+        function(target){
+            grunt.option('target',target);
+            if(target!==''){
+                grunt.task.run('push_files:'+target);
+            }
+            else{
+                grunt.log.error('Please provide a target for deployment! It is dangerous to deploy with closed eyes.');
+            }
+        });
+
+    grunt.registerTask('deploydb',
+        function(target){
+            grunt.option('target',target);
+            if(target!==''){
+                grunt.task.run('push_db:'+target);
+            }
+            else{
+                grunt.log.error('Please provide a target for deployment! It is dangerous to deploy with closed eyes.');
+            }
+        });
+
+};

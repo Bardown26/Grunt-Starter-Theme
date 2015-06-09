@@ -1,0 +1,144 @@
+.menu li > a:after {
+  color: #000;
+  content: "\f0da";
+  font-family: FontAwesome;
+  margin-left:5px;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  width:10px;
+  position: absolute;
+}
+.menu li > a:hover:after {
+  color: #000;
+  content: "\f0da";
+  margin-left:5px;
+  font-family: FontAwesome;
+  -webkit-transform: rotateZ(90deg);
+  -moz-transform: rotateZ(90deg);
+  transform: rotateZ(90deg);
+  width:10px;
+  position: absolute;
+}
+
+.menu li > a:only-child:after {
+  content: '';
+}
+
+.menu li ul li a:after {
+  content: '\f0da';
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
+}
+
+.menu li ul li a:hover:after {
+  content: '\f0da';
+  -webkit-transform: none;
+  -moz-transform: none;
+  transform: none;
+}
+
+.menu li ul li a:only-child:after {
+  content: '';
+}
+
+
+#primary_nav_wrap ul li.page_item a span {
+  display: inline-block;
+  border-bottom: 3px solid $primary;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+  @include breakpoint($small-break) {
+    color: #000;
+  }
+}
+#primary_nav_wrap ul ul li a span {
+  display: inline-block;
+  border-bottom: none!important;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+  @include breakpoint($small-break) {
+    color: #000;
+  }
+}
+
+#primary_nav_wrap
+{
+
+}
+
+#primary_nav_wrap ul
+{
+  list-style:none;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+#primary_nav_wrap ul a
+{
+  display:block;
+  text-decoration:none;
+  padding:0 15px;
+}
+
+#primary_nav_wrap ul li
+{
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+
+}
+
+#primary_nav_wrap ul li:hover
+{
+  z-index: 500;
+}
+
+#primary_nav_wrap ul ul
+{
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  background:#fff;
+  padding:0;
+  border:1px solid $primary;
+}
+
+#primary_nav_wrap ul ul li
+{
+  float:none;
+  width:200px;
+  border-bottom:1px solid $primary;
+}
+#primary_nav_wrap ul ul li:last-child
+{
+  float:none;
+  width:200px;
+  border-bottom:none;
+}
+
+#primary_nav_wrap ul ul a
+{
+  line-height:120%;
+  padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+  top:0;
+  left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+  display:block
+}

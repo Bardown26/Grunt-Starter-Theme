@@ -1,0 +1,37 @@
+/*------------------------------------*\
+    PAGINATION
+\*------------------------------------*/
+
+#nav-below {
+  z-index: 0;
+}
+
+.pagination{ font-size:$para;}
+.pagination {
+  clear:both;
+  position:relative;
+  text-align:center;
+  margin:30px auto;
+}
+
+.pagination span, .pagination a {
+  display:inline-block;
+  margin: 2px 2px 2px 0;
+  padding:10px;
+  text-decoration:none;
+  color:$primary;
+  border:1px solid $primary;
+  float: left;
+  margin:0 auto;
+}
+
+.pagination a:hover{
+  color:#fff;
+  background: $primary;
+}
+
+.pagination .current{
+  padding:10px;
+  background: $primary;
+  color:#fff;
+}

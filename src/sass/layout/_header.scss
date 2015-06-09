@@ -1,0 +1,33 @@
+/*------------------------------------*\
+    HEADER
+\*------------------------------------*/
+
+header {
+  height: 100px;
+  border-bottom:1px solid #000;
+  .site-logo {
+    width:32.24%;
+    @include breakpoint ($small-break){
+      font-size:14px;
+    }
+    @include breakpoint ($med-break){
+      width:75%;
+    }
+    #logo h1 {
+      font-size: 20px;
+      padding: 0;
+      margin: 15px 0 0 0;
+    }
+    h3 {
+      margin:0;
+      padding:10px 0px;
+      @include breakpoint ($small-break){
+        font-size:14px;
+      }
+    }
+  }//end .site-logo
+  .main-nav {
+    float: right;
+    margin-top:30px;
+  }
+}//end header

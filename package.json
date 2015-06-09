@@ -1,0 +1,22 @@
+{
+  "name": "Grunt-Starter-Theme",
+  "version": "0.0.1",
+  "description": "Powerful shell for rapidly deploying your WordPress projects.",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Atieh",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bowercopy": "^1.2.0",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-local-googlefont": "^0.2.0",
+    "grunt-mysql-dump": "^1.1.0",
+    "grunt-mysqldump": "0.0.2",
+    "grunt-sass": "^0.18.1",
+    "grunt-wordpress-deploy": "0.0.6"
+  }
+}

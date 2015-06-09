@@ -1,0 +1,20 @@
+{
+  "name": "Grunt-Starter-Theme",
+  "version": "0.0.1",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "breakpoint-sass": "~2.5.0",
+    "fullpage.js": "~2.6.4"
+  },
+  "devDependencies": {
+    "font-awesome": "~4.3.0",
+    "masonry": "~3.3.0"
+  }
+}
