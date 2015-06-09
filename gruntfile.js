@@ -13,34 +13,34 @@ module.exports = function(grunt){
                 },
                 local: {
                     "title": "local",
-                    "database": "stagingandrewatieh",
+                    "database": "add db",
                     "user": "root",
                     "pass": "root",
                     "host": "localhost",
-                    "url": "http://andrewatieh:8888",
-                    "path": "/Users/andrewatieh/Desktop/Websites/andrewatieh/local/"
+                    "url": "http://localhost:8888",
+                    "path": "path/to/directory"
                 },
                 staging: {
                     "title": "staging",
-                    "database": "stagingandrewati",
-                    "user": "stagingandrewati",
-                    "pass": "K4sm5xqXb!",
-                    "host": "184.168.159.1",
-                    "url": "http://staging.andrewatieh.com",
-                    "path": "/home/content/95/11573595/html/staging",
-                    "ssh_host": "e5674588@184.168.159.1"
+                    "database": "staging db name",
+                    "user": "staging db user",
+                    "pass": "staging db password",
+                    "host": "ip.add.ress.",
+                    "url": "staging url",
+                    "path": "absolute path to directory on server",
+                    "ssh_host": "cpanelusername@ip.add.ress"
                 },
-                //Current GoDaddy config has DB on different server than site files
-                stagingdb: {
-                    "title": "stagingdb",
-                    "database": "stagingandrewati",
-                    "user": "stagingandrewati",
-                    "pass": "K4sm5xqXb!",
-                    "host": "stagingandrewati.db.11573595.hostedresource.com",
-                    "url": "http://staging.andrewatieh.com",
-                    "path": "/home/content/95/11573595/html/staging",
-                    "ssh_host": "e5674588@184.168.159.1"
+                prod: {
+                    "title": "prod",
+                    "database": "prod db name",
+                    "user": "prod db user",
+                    "pass": "proddb password",
+                    "host": "ip.add.ress.",
+                    "url": "staging url",
+                    "path": "absolute path to directory on server",
+                    "ssh_host": "cpanelusername@ip.add.ress"
                 }
+
         },
         bowercopy: {
             options: {
