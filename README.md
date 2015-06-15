@@ -27,7 +27,7 @@ We can get into the goodies ive packed into this Starter Theme in a minute, firs
 
 ##Installation 
 
-1: Clone into your Wordpress theme directory.
+**1: Clone into your Wordpress theme directory.**
 
 ```Shell
 > cd {theme_directory}
@@ -36,30 +36,30 @@ We can get into the goodies ive packed into this Starter Theme in a minute, firs
 ```
 From now on, all your work will be done in your Grunt-Starter-Theme directory.
 
-2: Install dependent Node and Bower packagaes.
+**2: Install dependent Node and Bower packagaes.**
 
 ```Shell
 > npm install
 ```
 
-3: Now, Lets add the files from [this repository](https://github.com/Bardown26/wordpress-starter.git) to our root.
+**3: Now, Lets add the files from [this repository](https://github.com/Bardown26/wordpress-starter.git) to our root.**
 
-* Navigate to project root.
+Navigate to project root.
 ```Shell
 > cd {project root directory}
 ```
 
-* Add the repo folder.
+Add the repo folder.
 ```Shell
 > git clone https://github.com/Bardown26/wordpress-starter.git
 ```
 
-* Move the files from the repo to the root.
+Move the files from the repo to the root.
 ```Shell
 > mv wordpress-starter/* .
 ```
 
-* Get rid of that now empty folder.
+Get rid of that now empty folder.
 ```Shell
 > rm -r -f wordpress-starter
 ```
