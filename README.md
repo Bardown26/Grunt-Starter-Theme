@@ -30,9 +30,9 @@ We can get into the goodies ive packed into this Starter Theme in a minute, firs
 1: Clone into your Wordpress theme directory.
 
 ```Shell
-> cd /wp-content/themes
+> cd {theme_directory}
 > git clone https://github.com/Bardown26/Grunt-Starter-Theme.git
-> cd /Grunt-Starter-Theme
+> cd Grunt-Starter-Theme
 ```
 From now on, all your work will be done in your Grunt-Starter-Theme directory.
 
