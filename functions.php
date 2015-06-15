@@ -28,6 +28,9 @@ function live_reload_wp() {
     }
 }
 
+
+add_theme_support( 'post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat'));
+
 /*------------------------------------*\
     Define Constants
 \*------------------------------------*/
