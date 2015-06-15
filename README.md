@@ -46,7 +46,7 @@ From now on, all your work will be done in your Grunt-Starter-Theme directory.
 
 ```Shell
 > cd {root directory}
-> git https://github.com/Bardown26/wordpress-starter.git
+> git clone https://github.com/Bardown26/wordpress-starter.git
 ```
 
 4: Pull the wordpress starter files from [this repository](https://github.com/stinoga/wordpress-starter) and drop them in the root folder of the site.
