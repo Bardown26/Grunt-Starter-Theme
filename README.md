@@ -90,8 +90,6 @@ When you are ready to push live, run the build command to minify your files.
 
 #Theme Goodies
 
-This wordpress theme is setup to my development process, which works very well for me, but may not work the best for you.
-* [CMB2 Custom Meta Boxes](https://github.com/WebDevStudios/CMB2). I really love what these guys have done. It makes adding functionality to specific pages / posts / custom post types, anything really. 
-* 
+* [CMB2 Custom Meta Boxes](https://github.com/WebDevStudios/CMB2). I really love what these guys have done. It makes adding functionality to specific pages / posts / custom post types, anything really.
 
 ##Thanks
