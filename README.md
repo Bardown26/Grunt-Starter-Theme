@@ -39,14 +39,14 @@ From now on, all your work will be done in your Grunt-Starter-Theme directory.
 2: Install dependent Node and Bower packagaes.
 
 ```Shell
-> npm install && bower install
+> npm install
 ```
 
-3: If your wordpress install is in git, move the gitignore to your root directory. You can also remove the git submodule for this theme. Run these from the root of your Wordpress install:
+3: Add wp-config.php and local-config.php
 
 ```Shell
-> git rm --cached wp-content/themes/wordpress-boilerplate/
-> rm -rf wp-content/themes/wordpress-boilerplate/.git
+> cd {root directory}
+> git https://github.com/Bardown26/wordpress-starter.git
 ```
 
 4: Pull the wordpress starter files from [this repository](https://github.com/stinoga/wordpress-starter) and drop them in the root folder of the site.
