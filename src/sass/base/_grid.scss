@@ -15,11 +15,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-@media {
-  img {
-    width: auto; /* for ie 8 */
-  }
-}
 
 .section {
   clear: both;

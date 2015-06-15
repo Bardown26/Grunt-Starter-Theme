@@ -23,7 +23,7 @@ function my_jquery_enqueue() {
 if (!is_admin()) add_action("init", "live_reload_wp", 11);
 function live_reload_wp() {
     if (in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1'))) {
-        wp_register_script('livereload', 'http://spark:35729/livereload.js?snipver=1', null, false, true);
+        wp_register_script('livereload', 'http://localhost:35729/livereload.js?snipver=1', null, false, true);
         wp_enqueue_script('livereload');
     }
 }
@@ -37,6 +37,34 @@ define( 'IMAGES', THEMEROOT . '/images' );
 define( 'SCRIPTS', THEMEROOT . '/js' );
 define( 'FRAMEWORK', get_template_directory() . '/framework' );
 
+/*------------------------------------*\
+    Load CMB2
+\*------------------------------------*/
+
+/**
+ * If using the plugin from wordpress.org, REMOVE THIS!
+ */
+
+if ( file_exists( dirname( __FILE__ ) . '/cmb2/init.php' ) ) {
+    require_once dirname( __FILE__ ) . '/cmb2/init.php';
+} elseif ( file_exists( dirname( __FILE__ ) . '/CMB2/init.php' ) ) {
+    require_once dirname( __FILE__ ) . '/CMB2/init.php';
+}
+
+/**
+ * Conditionally displays a field when used as a callback in the 'show_on_cb' field parameter
+ *
+ * @param  CMB2_Field object $field Field object
+ *
+ * @return bool                     True if metabox should show
+ */
+function cmb2_hide_if_no_cats( $field ) {
+    // Don't show this field if not in the cats category
+    if ( ! has_tag( 'cats', $field->object_id ) ) {
+        return false;
+    }
+    return true;
+}
 
 /*------------------------------------*\
     Load Framework
@@ -47,12 +75,11 @@ require_once( FRAMEWORK . '/widgets/schema-address-widget.php' );
 require_once( 'functions-cmb.php' ); // Load Custom Meta Boxes.
 
 
-
-if ( ! function_exists( 'alpha_setup' ) ) {
-    function alpha_setup() {
+if ( ! function_exists( 'theme_setup' ) ) {
+    function theme_setup() {
 
         $lang_dir = THEMEROOT . '/languages';
-        load_theme_textdomain( 'alpha', $lang_dir );
+        load_theme_textdomain( 'grunt-theme', $lang_dir );
         /*------------------------------------*\
             Custom header
         \*------------------------------------*/
@@ -83,13 +110,9 @@ if ( ! function_exists( 'alpha_setup' ) ) {
         if ( function_exists( 'add_theme_support' ) ) {
             add_theme_support( 'post-thumbnails' );
             set_post_thumbnail_size( 150, 150, true ); // default Post Thumbnail dimensions (cropped)
-            add_image_size( 'blog', 1200, 350, true ); // (cropped)
             // additional image sizes
-            // delete the next line if you do not need additional image sizes
         }
-
         add_theme_support( 'automatic-feed-links' );
-
 
         /*------------------------------------*\
             MENUS
@@ -103,7 +126,7 @@ if ( ! function_exists( 'alpha_setup' ) ) {
         );
     }
 
-    add_action( 'after_setup_theme', 'alpha_setup' );
+    add_action( 'after_setup_theme', 'theme_setup' );
 }
 
 /*------------------------------------*\
@@ -201,42 +224,6 @@ if ( ! function_exists( 'alpha_widget_init' ) ) {
 
             register_sidebar(
                 array(
-                    'name' => __( 'Header Left', 'alpha' ),
-                    'id' => 'header_left',
-                    'description' => __( 'Appears to the left of the centered logo.', 'alpha' ),
-                    'before_widget' => '',
-                    'after_widget' => '',
-                    'before_title' => '',
-                    'after_title' => '',
-                )
-            );
-
-            register_sidebar(
-                array(
-                    'name' => __( 'Header Right', 'alpha' ),
-                    'id' => 'header_right',
-                    'description' => __( 'Appears to the right of the centered logo.', 'alpha' ),
-                    'before_widget' => '',
-                    'after_widget' => '',
-                    'before_title' => '',
-                    'after_title' => '',
-                )
-            );
-
-            register_sidebar(
-                array(
-                    'name' => __( 'Footer', 'alpha' ),
-                    'id' => 'footer_left',
-                    'description' => __( 'Appears in the Footer', 'alpha' ),
-                    'before_widget' => '',
-                    'after_widget' => '',
-                    'before_title' => '',
-                    'after_title' => '',
-                )
-            );
-
-            register_sidebar(
-                array(
                     'name' => __( 'Main Widget Area', 'alpha' ),
                     'id' => 'sidebar-1',
                     'description' => __( 'Appears on posts and pages.', 'alpha' ),
@@ -252,36 +239,6 @@ if ( ! function_exists( 'alpha_widget_init' ) ) {
 
     add_action( 'widgets_init', 'alpha_widget_init' );
 }
-
-/*------------------------------------*\
-    Load CMB2
-\*------------------------------------*/
-
-/**
- * If using the plugin from wordpress.org, REMOVE THIS!
- */
-
-if ( file_exists( dirname( __FILE__ ) . '/cmb2/init.php' ) ) {
-    require_once dirname( __FILE__ ) . '/cmb2/init.php';
-} elseif ( file_exists( dirname( __FILE__ ) . '/CMB2/init.php' ) ) {
-    require_once dirname( __FILE__ ) . '/CMB2/init.php';
-}
-
-/**
- * Conditionally displays a field when used as a callback in the 'show_on_cb' field parameter
- *
- * @param  CMB2_Field object $field Field object
- *
- * @return bool                     True if metabox should show
- */
-function cmb2_hide_if_no_cats( $field ) {
-    // Don't show this field if not in the cats category
-    if ( ! has_tag( 'cats', $field->object_id ) ) {
-        return false;
-    }
-    return true;
-}
-
 
 /*------------------------------------*\
     Production Style / Script files
@@ -311,14 +268,14 @@ if ( ! function_exists( 'Wps_load_styles' ) ) {
 \*------------------------------------*/
 
 // Creates Testimonials Custom Post Type
-function testimonials_init() {
+function sample_init() {
     $args = array(
-        'label' => 'Testimonials',
+        'label' => 'Sample CPT',
         'public' => true,
         'show_ui' => true,
         'capability_type' => 'page',
         'hierarchical' => false,
-        'rewrite' => array('slug'=>'testimonials'),
+        'rewrite' => array('slug'=>'sample'),
         'query_var' => true,
         'menu_icon' => 'dashicons-video-alt',
         'supports' => array(
@@ -328,22 +285,22 @@ function testimonials_init() {
             'thumbnail',
             'page-attributes',)
     );
-    register_post_type( 'testimonials', $args );
+    register_post_type( 'sample', $args );
 }
-add_action( 'init', 'testimonials_init' );
+add_action( 'init', 'sample_init' );
 
 
 // hook into the init action and call testimonials_taxonomies when it fires
-add_action( 'init', 'testimonials_taxonomies', 0 );
+add_action( 'init', 'sample_taxonomies', 0 );
 
 // create two taxonomies, genres and writers for the post type "book"
-function testimonials_taxonomies() {
+function sample_taxonomies() {
 
 
     // Add new taxonomy, NOT hierarchical (like tags)
     $labels = array(
-        'name'                       => _x( 'Testimonial Tags', 'taxonomy general name' ),
-        'singular_name'              => _x( 'Testimonial Tag', 'taxonomy singular name' ),
+        'name'                       => _x( 'Sample Tags', 'taxonomy general name' ),
+        'singular_name'              => _x( 'Sample Tag', 'taxonomy singular name' ),
         'search_items'               => __( 'Search Tags' ),
         'popular_items'              => __( 'Popular Tags' ),
         'all_items'                  => __( 'All Tags' ),
@@ -357,7 +314,7 @@ function testimonials_taxonomies() {
         'add_or_remove_items'        => __( 'Add or remove tag' ),
         'choose_from_most_used'      => __( 'Choose from the most used tag' ),
         'not_found'                  => __( 'No tag found.' ),
-        'menu_name'                  => __( 'Testimonial Tags' ),
+        'menu_name'                  => __( 'Sample Tags' ),
     );
 
     $args = array(
@@ -367,75 +324,12 @@ function testimonials_taxonomies() {
         'show_admin_column'     => true,
         'update_count_callback' => '_update_post_term_count',
         'query_var'             => true,
-        'rewrite'               => array( 'slug' => 'testimonial_tag' ),
+        'rewrite'               => array( 'slug' => 'sample_tag' ),
     );
 
-    register_taxonomy( 'testimonial_tag', 'testimonials', $args );
+    register_taxonomy( 'sample_tag', 'sample', $args );
 }
 
-
-// Creates Products Custom Post Type
-function products_init() {
-    $args = array(
-        'label' => 'Products',
-        'public' => true,
-        'show_ui' => true,
-        'capability_type' => 'page',
-        'hierarchical' => false,
-        'rewrite' => array('slug'=>'products'),
-        'query_var' => true,
-        'menu_icon' => 'dashicons-video-alt',
-        'supports' => array(
-            'title',
-            'editor',
-            'excerpt',
-            'thumbnail',
-            'page-attributes',)
-    );
-    register_post_type( 'products', $args );
-}
-add_action( 'init', 'products_init' );
-
-
-// hook into the init action and call testimonials_taxonomies when it fires
-add_action( 'init', 'products_taxonomies', 0 );
-
-// create two taxonomies, genres and writers for the post type "book"
-function products_taxonomies() {
-
-
-    // Add new taxonomy, NOT hierarchical (like tags)
-    $labels = array(
-        'name'                       => _x( 'Products Tags', 'taxonomy general name' ),
-        'singular_name'              => _x( 'Product Tag', 'taxonomy singular name' ),
-        'search_items'               => __( 'Search Tags' ),
-        'popular_items'              => __( 'Popular Tags' ),
-        'all_items'                  => __( 'All Tags' ),
-        'parent_item'                => null,
-        'parent_item_colon'          => null,
-        'edit_item'                  => __( 'Edit Tag' ),
-        'update_item'                => __( 'Update Tag' ),
-        'add_new_item'               => __( 'Add New Tag' ),
-        'new_item_name'              => __( 'New Tag Name' ),
-        'separate_items_with_commas' => __( 'Separate Tags with commas' ),
-        'add_or_remove_items'        => __( 'Add or remove tag' ),
-        'choose_from_most_used'      => __( 'Choose from the most used tag' ),
-        'not_found'                  => __( 'No tag found.' ),
-        'menu_name'                  => __( 'Product Tags' ),
-    );
-
-    $args = array(
-        'hierarchical'          => true,
-        'labels'                => $labels,
-        'show_ui'               => true,
-        'show_admin_column'     => true,
-        'update_count_callback' => '_update_post_term_count',
-        'query_var'             => true,
-        'rewrite'               => array( 'slug' => 'product_tag' ),
-    );
-
-    register_taxonomy( 'product_tag', 'products', $args );
-}
 /*------------------------------------*\
     Favicons Galore! //cleaning up the header.php file
 \*------------------------------------*/
