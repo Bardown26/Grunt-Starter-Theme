@@ -15,12 +15,12 @@ We can get into the goodies ive packed into this Starter Theme in a minute, firs
     * [grunt-wordpress-deploy](https://www.npmjs.com/package/grunt-wordpress-deploy)
     * [grunt-mysql-dump](https://www.npmjs.com/package/grunt-mysql-dump)
     * [grunt-bowercopy](https://www.npmjs.com/package/grunt-bowercopy)
-* [jQuery](http://jquery.com/)
+<!---* [jQuery](http://jquery.com/)
 * [modernizr](http://modernizr.com/)
 * [SASS](http://sass-lang.com/)
 * [breakpoint](http://breakpoint-sass.com/)
 * [normalize.css](http://necolas.github.com/normalize.css/)
-
+--->
 <!-- create new folder whereever you store your websites, and then 
     git clone https://github.com/Bardown26/WordPress.git
  -->
