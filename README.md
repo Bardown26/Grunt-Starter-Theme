@@ -1,7 +1,9 @@
 Wordpress Grunt Starter Theme
 =============================
 
-Boilerplate starter code for Wordpress projects. Uses Grunt and Sass, alongside Bower for package management. (rewrite)
+Wordpress Boilerplate for rapid development. Using Grunt, Sass, and an amazing little gem called [Wordpress Deploy](https://www.npmjs.com/package/grunt-wordpress-deploy) we can now deploy to staging and production with a single line of code!
+
+We can get into the goodies ive packed into this Starter Theme in a minute, first lets get everything set up.
 
 ##The Stack
 
@@ -19,13 +21,18 @@ Boilerplate starter code for Wordpress projects. Uses Grunt and Sass, alongside 
 * [breakpoint](http://breakpoint-sass.com/)
 * [normalize.css](http://necolas.github.com/normalize.css/)
 
+<!-- create new folder whereever you store your websites, and then 
+    git clone https://github.com/Bardown26/WordPress.git
+ -->
+
 ##Installation 
 
 1: Clone into your Wordpress theme directory.
 
 ```Shell
-> cd {theme_directory}
+> cd /wp-content/themes
 > git clone https://github.com/Bardown26/Grunt-Starter-Theme.git
+> cd /Grunt-Starter-Theme
 ```
 From now on, all your work will be done in your Grunt-Starter-Theme directory.
 

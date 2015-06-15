@@ -15,8 +15,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-local-googlefont": "^0.2.0",
     "grunt-mysql-dump": "^1.1.0",
-    "grunt-mysqldump": "0.0.2",
-    "grunt-sass": "^0.18.1",
+    "grunt-sass": "^1.0.0",
     "grunt-wordpress-deploy": "0.0.6"
   }
 }
