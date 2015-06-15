@@ -64,17 +64,21 @@ Get rid of that now empty folder.
 > rm -r -f wordpress-starter
 ```
 
-**4: Code!**
+**4: Setup your local db under local-config.php and add your staging db to the wp-config.php**
 
+**5: Code!**
 ```Shell
 > grunt
 ```
+
+
 
 ##Development
 
 ```Shell
 > grunt watch
 ```
+Note: 
 
 ##Building
 
