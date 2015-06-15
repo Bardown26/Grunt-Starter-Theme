@@ -54,7 +54,7 @@ Add the repo folder.
 > git clone https://github.com/Bardown26/wordpress-starter.git
 ```
 
-Move the files from the repo to the root.
+Move the files from the repo folder to the root.
 ```Shell
 > mv wordpress-starter/* .
 ```
