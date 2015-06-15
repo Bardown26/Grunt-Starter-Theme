@@ -45,8 +45,10 @@ From now on, all your work will be done in your Grunt-Starter-Theme directory.
 3: Add wp-config.php and local-config.php
 
 ```Shell
-> cd {root directory}
+> cd {project root directory}
 > git clone https://github.com/Bardown26/wordpress-starter.git
+> mv wordpress-starter/* .
+> rm -r -f wordpress-starter
 ```
 
 4: Pull the wordpress starter files from [this repository](https://github.com/stinoga/wordpress-starter) and drop them in the root folder of the site.
