@@ -8,19 +8,22 @@
 
 <?php get_header(); ?>
     <div class="container">
-        <div class="col span8-12">
-            <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                <div class="title">
-                    <h2><?php the_title(); ?></h2>
-                </div>
-                <?php the_content(); ?>
+        <?php if (function_exists('the_breadcrumbs')) the_breadcrumbs(); ?>
+        <div class="section">
+            <div class="col span8-12">
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                    <div class="title">
+                        <h2><?php the_title(); ?></h2>
+                    </div>
+                    <?php the_content(); ?>
 
-            <?php endwhile; else : ?>
-            <?php endif; ?>
-        </div>
-        <div class="col span4-12">
-            <?php get_search_form(); ?>
-            <?php get_sidebar(); ?>
+                <?php endwhile; else : ?>
+                <?php endif; ?>
+            </div>
+            <div class="col span4-12">
+                <?php get_search_form(); ?>
+                <?php get_sidebar(); ?>
+            </div>
         </div>
     </div>
 

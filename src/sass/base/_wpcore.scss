@@ -39,6 +39,7 @@ nav,
 section,
 summary {
   display: block;
+  word-break: break-word;
 }
 
 audio,
@@ -2613,4 +2614,18 @@ footer.entry-meta {
   .comment-list .reply {
     width: 100%;
   }
+}
+
+.meta {
+  margin:10px 0px;
+}
+
+.post-categories{
+  display: inline;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline;
+    margin: 0;
+    padding: 0;}
 }

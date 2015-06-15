@@ -5,14 +5,13 @@
  * The template for displaying 404 pages (Not Found).
  */
 ?>
-
 <?php get_header(); ?>
+    <div class="container not-found">
+        <h1>Error 404 - Nothing Found</h1>
 
-    <div class="container">
-        <h1><?php _e( 'Error 404 - Nothing Found', 'alpha' ); ?></h1>
-
-        <p><?php _e( 'It looks like nothing was found here. Maybe try a search?', 'alpha' ); ?></p>
+        <p>It looks like nothing was found here. Maybe try a search?</p>
 
         <?php get_search_form(); ?>
+        <br />
     </div>
 <?php get_footer(); ?>

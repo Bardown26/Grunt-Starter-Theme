@@ -4501,27 +4501,28 @@ nav,
 section,
 summary {
   display: block;
+  word-break: break-word;
 }
 
-/* line 46, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 47, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 audio,
 canvas,
 video {
   display: inline-block;
 }
 
-/* line 50, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 51, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 55, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 56, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 [hidden] {
   display: none;
 }
 
-/* line 59, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 60, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 html {
   font-size: 100%;
   overflow-y: scroll;
@@ -4529,58 +4530,58 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-/* line 66, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 67, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 a {
   color: #ca3c08;
   text-decoration: none;
 }
 
-/* line 72, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 73, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 a:active,
 a:hover {
   color: #ea9629;
   outline: 0;
 }
 
-/* line 77, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 78, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 81, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 82, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 address {
   font-style: italic;
   margin: 0 0 24px;
 }
 
-/* line 86, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 87, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 91, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 92, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 95, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 96, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 99, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 100, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 104, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 105, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 p {
   margin: 0 0 24px;
 }
 
-/* line 111, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 112, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 code,
 kbd,
 pre,
@@ -4593,7 +4594,7 @@ samp {
   hyphens: none;
 }
 
-/* line 120, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 121, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 pre {
   background: #f5f5f5;
   color: #666;
@@ -4607,7 +4608,7 @@ pre {
   word-wrap: break-word;
 }
 
-/* line 134, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 135, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 blockquote,
 q {
   -webkit-hyphens: none;
@@ -4617,7 +4618,7 @@ q {
   quotes: none;
 }
 
-/* line 145, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 146, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -4626,7 +4627,7 @@ q:after {
   content: none;
 }
 
-/* line 150, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 151, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 blockquote {
   font-size: 18px;
   font-style: italic;
@@ -4634,12 +4635,12 @@ blockquote {
   margin: 24px 40px;
 }
 
-/* line 157, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 158, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 blockquote blockquote {
   margin-right: 0;
 }
 
-/* line 162, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 163, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 blockquote cite,
 blockquote small {
   font-size: 14px;
@@ -4647,25 +4648,25 @@ blockquote small {
   text-transform: uppercase;
 }
 
-/* line 169, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 170, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 blockquote em,
 blockquote i {
   font-style: normal;
   font-weight: 300;
 }
 
-/* line 175, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 176, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 blockquote strong,
 blockquote b {
   font-weight: 400;
 }
 
-/* line 179, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 180, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 small {
   font-size: smaller;
 }
 
-/* line 184, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 185, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 sub,
 sup {
   font-size: 75%;
@@ -4674,32 +4675,32 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 191, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 192, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 195, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 196, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 199, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 200, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 dl {
   margin: 0 20px;
 }
 
-/* line 203, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 204, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 207, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 208, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 dd {
   margin: 0 0 20px;
 }
 
-/* line 213, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 214, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 menu,
 ol,
 ul {
@@ -4707,61 +4708,61 @@ ul {
   padding: 0 0 0 40px;
 }
 
-/* line 218, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 219, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 ul {
   list-style-type: square;
 }
 
-/* line 223, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 224, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 nav ul,
 nav ol {
   list-style: none;
   list-style-image: none;
 }
 
-/* line 229, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 230, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 li > ul,
 li > ol {
   margin: 0;
 }
 
-/* line 233, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 234, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 img {
   -ms-interpolation-mode: bicubic;
   border: 0;
   vertical-align: middle;
 }
 
-/* line 239, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 240, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 243, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 244, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 figure {
   margin: 0;
 }
 
-/* line 247, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 248, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 form {
   margin: 0;
 }
 
-/* line 251, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 252, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 257, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 258, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 legend {
   border: 0;
   padding: 0;
   white-space: normal;
 }
 
-/* line 266, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 267, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 button,
 input,
 select,
@@ -4772,13 +4773,13 @@ textarea {
   vertical-align: baseline;
 }
 
-/* line 274, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 275, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 281, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 282, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -4787,19 +4788,19 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 287, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 288, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
 }
 
-/* line 292, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 293, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 input[type="checkbox"],
 input[type="radio"] {
   padding: 0;
 }
 
-/* line 296, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 297, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   padding-right: 2px;
@@ -4807,25 +4808,25 @@ input[type="search"] {
   width: 270px;
 }
 
-/* line 302, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 303, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 307, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 308, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 312, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 313, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 317, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 318, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 table {
   border-bottom: 1px solid #ededed;
   border-collapse: collapse;
@@ -4836,7 +4837,7 @@ table {
   width: 100%;
 }
 
-/* line 329, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 330, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 caption,
 th,
 td {
@@ -4844,36 +4845,36 @@ td {
   text-align: left;
 }
 
-/* line 334, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 335, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 caption {
   font-size: 16px;
   margin: 20px 0;
 }
 
-/* line 339, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 340, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 th {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-/* line 344, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 345, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 td {
   border-top: 1px solid #ededed;
   padding: 6px 10px 6px 0;
 }
 
-/* line 349, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 350, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 del {
   color: #333;
 }
 
-/* line 353, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 354, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 ins {
   background: #fff9c0;
   text-decoration: none;
 }
 
-/* line 358, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 359, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 hr {
   background: url(/wp-content/themes/pub/twentythirteen/images/dotted-line.png) repeat center top;
   background-size: 4px 4px;
@@ -4886,7 +4887,7 @@ hr {
  * 2.0 Repeatable Patterns
  * ----------------------------------------------------------------------------
  */
-/* line 390, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 391, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .genericon:before,
 .menu-toggle:after,
 .featured-post:before,
@@ -4913,7 +4914,7 @@ hr {
 }
 
 /* Clearing floats */
-/* line 409, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 410, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .clear:after,
 .attachment .entry-header:after,
 .site-footer .widget-area:after,
@@ -4929,7 +4930,7 @@ hr {
   clear: both;
 }
 
-/* line 436, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 437, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .clear:before,
 .clear:after,
 .attachment .entry-header:before,
@@ -4959,7 +4960,7 @@ hr {
 }
 
 /* Assistive text */
-/* line 442, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 443, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   overflow: hidden;
@@ -4968,7 +4969,7 @@ hr {
   width: 1px;
 }
 
-/* line 450, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 451, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .screen-reader-text:focus {
   background-color: #f1f1f1;
   border-radius: 3px;
@@ -4991,7 +4992,7 @@ hr {
 }
 
 /* Form fields, general styles first. */
-/* line 473, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 474, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 button,
 input,
 textarea {
@@ -5000,13 +5001,13 @@ textarea {
   padding: 5px;
 }
 
-/* line 480, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 481, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 input,
 textarea {
   color: #141412;
 }
 
-/* line 485, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 486, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 input:focus,
 textarea:focus {
   border: 2px solid #c3c0ab;
@@ -5014,7 +5015,7 @@ textarea:focus {
 }
 
 /* Buttons */
-/* line 494, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 495, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 button,
 input[type="submit"],
 input[type="button"],
@@ -5034,7 +5035,7 @@ input[type="reset"] {
   text-decoration: none;
 }
 
-/* line 514, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 515, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 button:hover,
 button:focus,
 input[type="submit"]:hover,
@@ -5052,7 +5053,7 @@ input[type="reset"]:focus {
   outline: none;
 }
 
-/* line 524, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 525, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 button:active,
 input[type="submit"]:active,
 input[type="button"]:active,
@@ -5068,34 +5069,34 @@ input[type="reset"]:active {
   padding: 10px 24px 11px;
 }
 
-/* line 533, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 534, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .post-password-required input[type="submit"] {
   padding: 7px 24px 4px;
   vertical-align: bottom;
 }
 
-/* line 538, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 539, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .post-password-required input[type="submit"]:active {
   padding: 5px 24px 6px;
 }
 
 /* Placeholder text color -- selectors need to be separate to work. */
-/* line 543, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 544, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 ::-webkit-input-placeholder {
   color: #7d7b6d;
 }
 
-/* line 547, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 548, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 :-moz-placeholder {
   color: #7d7b6d;
 }
 
-/* line 551, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 552, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 ::-moz-placeholder {
   color: #7d7b6d;
 }
 
-/* line 555, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 556, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 :-ms-input-placeholder {
   color: #7d7b6d;
 }
@@ -5105,7 +5106,7 @@ input[type="reset"]:active {
  *
  * Fluid images for posts, comments, and widgets
  */
-/* line 568, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 569, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-content img,
 .entry-summary img,
 .comment-content img,
@@ -5115,7 +5116,7 @@ input[type="reset"]:active {
 }
 
 /* Make sure images with WordPress-added height and width attributes are scaled correctly. */
-/* line 578, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 579, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-content img,
 .entry-summary img,
 .comment-content img[height],
@@ -5125,7 +5126,7 @@ img[class*="attachment-"] {
   height: auto;
 }
 
-/* line 584, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 585, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 img.size-full,
 img.size-large,
 img.wp-post-image {
@@ -5134,7 +5135,7 @@ img.wp-post-image {
 }
 
 /* Make sure videos and embeds fit their containers. */
-/* line 593, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 594, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 embed,
 iframe,
 object,
@@ -5143,62 +5144,62 @@ video {
 }
 
 /* Override the Twitter embed fixed width. */
-/* line 598, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 599, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-content .twitter-tweet-rendered {
   max-width: 100% !important;
 }
 
 /* Images */
-/* line 603, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 604, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .alignleft {
   float: left;
 }
 
-/* line 607, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 608, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .alignright {
   float: right;
 }
 
-/* line 611, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 612, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .aligncenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 618, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 619, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 figure.wp-caption.alignleft,
 img.alignleft {
   margin: 5px 20px 5px 0;
 }
 
-/* line 622, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 623, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .wp-caption.alignleft {
   margin: 5px 10px 5px 0;
 }
 
-/* line 627, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 628, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 figure.wp-caption.alignright,
 img.alignright {
   margin: 5px 0 5px 20px;
 }
 
-/* line 631, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 632, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .wp-caption.alignright {
   margin: 5px 0 5px 10px;
 }
 
-/* line 635, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 636, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 img.aligncenter {
   margin: 5px auto;
 }
 
-/* line 639, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 640, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 img.alignnone {
   margin: 5px 0;
 }
 
-/* line 645, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 646, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .wp-caption .wp-caption-text,
 .entry-caption,
 .gallery-caption {
@@ -5209,17 +5210,17 @@ img.alignnone {
   margin: 0 0 24px;
 }
 
-/* line 653, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 654, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 div.wp-caption.alignright img[class*="wp-image-"] {
   float: right;
 }
 
-/* line 657, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 658, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 div.wp-caption.alignright .wp-caption-text {
   padding-left: 10px;
 }
 
-/* line 662, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 663, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 img.wp-smiley,
 .rsswidget img {
   border: 0;
@@ -5230,7 +5231,7 @@ img.wp-smiley,
   padding: 0;
 }
 
-/* line 672, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 673, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .wp-caption.alignleft + ul,
 .wp-caption.alignleft + ol {
   list-style-position: inside;
@@ -5256,12 +5257,12 @@ img.wp-smiley,
  * 5.0 Content
  * ----------------------------------------------------------------------------
  */
-/* line 706, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 707, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .hentry {
   padding: 40px 0;
 }
 
-/* line 713, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 714, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-header,
 .entry-content,
 .entry-summary,
@@ -5271,7 +5272,7 @@ img.wp-smiley,
   width: 100%;
 }
 
-/* line 722, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 723, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .sidebar .entry-header,
 .sidebar .entry-content,
 .sidebar .entry-summary,
@@ -5284,34 +5285,34 @@ img.wp-smiley,
  * 5.1 Entry Header
  * ----------------------------------------------------------------------------
  */
-/* line 733, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 734, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .sidebar .entry-header .entry-meta {
   padding: 0;
 }
 
-/* line 737, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 738, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-thumbnail img {
   display: block;
   margin: 0 auto 10px;
 }
 
-/* line 742, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 743, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-header {
   margin-bottom: 30px;
 }
 
-/* line 746, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 747, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-title {
   font-weight: normal;
   margin: 0 0 5px;
 }
 
-/* line 751, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 752, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-title a {
   color: #141412;
 }
 
-/* line 755, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 756, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-title a:hover {
   color: #ea9629;
 }
@@ -5320,44 +5321,44 @@ img.wp-smiley,
  * 5.2 Entry Meta
  * ----------------------------------------------------------------------------
  */
-/* line 765, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 766, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-meta {
   clear: both;
   font-size: 14px;
 }
 
-/* line 770, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 771, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-meta a {
   color: #bc360a;
 }
 
-/* line 774, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 775, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-meta a:hover {
   color: #bc360a;
 }
 
-/* line 778, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 779, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-meta > span {
   margin-right: 20px;
 }
 
-/* line 782, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 783, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-meta > span:last-child {
   margin-right: 0;
 }
 
-/* line 786, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 787, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .featured-post:before {
   content: "\f308";
   margin-right: 2px;
 }
 
-/* line 791, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 792, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-meta .date a:before {
   content: "\f303";
 }
 
-/* line 795, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 796, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comments-link a:before {
   content: "\f300";
   margin-right: 2px;
@@ -5365,33 +5366,33 @@ img.wp-smiley,
   top: -1px;
 }
 
-/* line 802, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 803, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-meta .author a:before {
   content: "\f304";
   position: relative;
   top: -1px;
 }
 
-/* line 808, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 809, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .categories-links a:first-child:before {
   content: "\f301";
 }
 
-/* line 812, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 813, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .tags-links a:first-child:before {
   content: "\f302";
   position: relative;
   top: -1px;
 }
 
-/* line 818, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 819, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .edit-link a:before {
   content: "\f411";
   position: relative;
   top: -1px;
 }
 
-/* line 829, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 830, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .single-author .entry-meta .author,
 .sticky.format-standard .entry-meta .date,
 .sticky.format-audio .entry-meta .date,
@@ -5405,7 +5406,7 @@ img.wp-smiley,
  * 5.3 Entry Content
  * ----------------------------------------------------------------------------
  */
-/* line 839, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 840, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-content {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -5414,58 +5415,58 @@ img.wp-smiley,
   word-wrap: break-word;
 }
 
-/* line 848, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 849, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-content a,
 .comment-content a {
   color: #bc360a;
 }
 
-/* line 853, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 854, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-content a:hover,
 .comment-content a:hover {
   color: #ea9629;
 }
 
-/* line 857, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 858, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-content .more-link {
   white-space: nowrap;
 }
 
-/* line 861, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 862, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-content blockquote {
   font-size: 24px;
 }
 
-/* line 866, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 867, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-content blockquote cite,
 .entry-content blockquote small {
   font-size: 16px;
 }
 
-/* line 871, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 872, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-content img.alignleft,
 .entry-content .wp-caption.alignleft {
   margin-left: -60px;
 }
 
-/* line 876, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 877, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .entry-content img.alignright,
 .entry-content .wp-caption.alignright {
   margin-right: -60px;
 }
 
-/* line 880, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 881, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 footer.entry-meta {
   margin-top: 24px;
 }
 
-/* line 884, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 885, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-standard footer.entry-meta {
   margin-top: 0;
 }
 
 /* Page links */
-/* line 889, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 890, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .page-links {
   clear: both;
   font-size: 16px;
@@ -5476,7 +5477,7 @@ footer.entry-meta {
   text-transform: uppercase;
 }
 
-/* line 900, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 901, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .page-links a,
 .page-links > span {
   background: #fff;
@@ -5485,7 +5486,7 @@ footer.entry-meta {
   text-decoration: none;
 }
 
-/* line 911, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 912, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .entry-content .page-links a,
 .format-gallery .entry-content .page-links a,
 .format-chat .entry-content .page-links a,
@@ -5496,7 +5497,7 @@ footer.entry-meta {
   color: #fff;
 }
 
-/* line 923, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 924, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-gallery .entry-content .page-links a:hover,
 .format-audio .entry-content .page-links a:hover,
 .format-status .entry-content .page-links a:hover,
@@ -5508,13 +5509,13 @@ footer.entry-meta {
   color: #e63f2a;
 }
 
-/* line 929, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 930, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .entry-content .page-links > span,
 .format-quote .entry-content .page-links > span {
   background: none;
 }
 
-/* line 933, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 934, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .page-links .page-links-title {
   background: transparent;
   border: none;
@@ -5523,30 +5524,30 @@ footer.entry-meta {
 }
 
 /* Mediaelements */
-/* line 942, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 943, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .hentry .mejs-mediaelement,
 .hentry .mejs-container .mejs-controls {
   background: #220e10;
 }
 
-/* line 947, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 948, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .hentry .mejs-controls .mejs-time-rail .mejs-time-loaded,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
   background: #fff;
 }
 
-/* line 951, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 952, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .hentry .mejs-controls .mejs-time-rail .mejs-time-current {
   background: #ea9629;
 }
 
-/* line 956, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 957, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .hentry .mejs-controls .mejs-time-rail .mejs-time-total,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
   background: #595959;
 }
 
-/* line 962, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 963, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .hentry .mejs-controls .mejs-time-rail span,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
 .hentry .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
@@ -5557,13 +5558,13 @@ footer.entry-meta {
  * 5.4 Galleries
  * ----------------------------------------------------------------------------
  */
-/* line 972, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 973, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery {
   margin-bottom: 20px;
   margin-left: -4px;
 }
 
-/* line 977, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 978, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-item {
   float: left;
   margin: 0 4px 4px 0;
@@ -5571,7 +5572,7 @@ footer.entry-meta {
   position: relative;
 }
 
-/* line 987, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 988, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-columns-1.gallery-size-medium,
 .gallery-columns-1.gallery-size-thumbnail,
 .gallery-columns-2.gallery-size-thumbnail,
@@ -5580,56 +5581,56 @@ footer.entry-meta {
   margin: 0 auto 20px;
 }
 
-/* line 994, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 995, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-columns-1 .gallery-item,
 .gallery-columns-2 .gallery-item,
 .gallery-columns-3 .gallery-item {
   text-align: center;
 }
 
-/* line 998, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 999, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-columns-4 .gallery-item {
   max-width: 23%;
   max-width: -webkit-calc(25% - 4px);
   max-width: calc(25% - 4px);
 }
 
-/* line 1004, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1005, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-columns-5 .gallery-item {
   max-width: 19%;
   max-width: -webkit-calc(20% - 4px);
   max-width: calc(20% - 4px);
 }
 
-/* line 1010, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1011, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-columns-6 .gallery-item {
   max-width: 15%;
   max-width: -webkit-calc(16.7% - 4px);
   max-width: calc(16.7% - 4px);
 }
 
-/* line 1016, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1017, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-columns-7 .gallery-item {
   max-width: 13%;
   max-width: -webkit-calc(14.28% - 4px);
   max-width: calc(14.28% - 4px);
 }
 
-/* line 1022, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1023, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-columns-8 .gallery-item {
   max-width: 11%;
   max-width: -webkit-calc(12.5% - 4px);
   max-width: calc(12.5% - 4px);
 }
 
-/* line 1028, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1029, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-columns-9 .gallery-item {
   max-width: 9%;
   max-width: -webkit-calc(11.1% - 4px);
   max-width: calc(11.1% - 4px);
 }
 
-/* line 1042, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1043, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-columns-1 .gallery-item:nth-of-type(1n),
 .gallery-columns-2 .gallery-item:nth-of-type(2n),
 .gallery-columns-3 .gallery-item:nth-of-type(3n),
@@ -5642,7 +5643,7 @@ footer.entry-meta {
   margin-right: 0;
 }
 
-/* line 1049, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1050, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-columns-1.gallery-size-medium figure.gallery-item:nth-of-type(1n+1),
 .gallery-columns-1.gallery-size-thumbnail figure.gallery-item:nth-of-type(1n+1),
 .gallery-columns-2.gallery-size-thumbnail figure.gallery-item:nth-of-type(2n+1),
@@ -5650,7 +5651,7 @@ footer.entry-meta {
   clear: left;
 }
 
-/* line 1053, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1054, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-caption {
   background-color: rgba(0, 0, 0, 0.7);
   box-sizing: border-box;
@@ -5670,7 +5671,7 @@ footer.entry-meta {
   width: 100%;
 }
 
-/* line 1072, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1073, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-caption:before {
   box-shadow: 0 -10px 15px #000 inset;
   content: "";
@@ -5682,12 +5683,12 @@ footer.entry-meta {
   width: 100%;
 }
 
-/* line 1083, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1084, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-item:hover .gallery-caption {
   opacity: 1;
 }
 
-/* line 1089, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1090, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .gallery-columns-7 .gallery-caption,
 .gallery-columns-8 .gallery-caption,
 .gallery-columns-9 .gallery-caption {
@@ -5699,12 +5700,12 @@ footer.entry-meta {
  * ----------------------------------------------------------------------------
  */
 /* Aside */
-/* line 1100, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1101, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-aside {
   background-color: #f7f5e7;
 }
 
-/* line 1108, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1109, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .blog .format-aside:first-of-type,
 .single .format-aside:first-of-type,
 .format-aside + .format-aside,
@@ -5713,42 +5714,42 @@ footer.entry-meta {
   box-shadow: inset 0 2px 2px rgba(173, 165, 105, 0.2);
 }
 
-/* line 1112, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1113, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-aside .entry-meta {
   margin-top: 0;
 }
 
-/* line 1116, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1117, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-aside blockquote {
   font-size: 100%;
   font-weight: normal;
 }
 
-/* line 1121, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1122, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-aside cite {
   font-size: 100%;
   text-transform: none;
 }
 
-/* line 1126, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1127, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-aside cite:before {
   content: "\2014";
   margin-right: 5px;
 }
 
 /* Audio */
-/* line 1132, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1133, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-audio {
   background-color: #db572f;
 }
 
-/* line 1136, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1137, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-audio .entry-title {
   font-size: 28px;
   font-weight: bold;
 }
 
-/* line 1141, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1142, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-audio .entry-content:before {
   content: "\f109";
   float: left;
@@ -5757,7 +5758,7 @@ footer.entry-meta {
   top: 4px;
 }
 
-/* line 1152, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1153, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-audio .entry-content a,
 .format-audio .entry-meta a,
 .format-audio .entry-content a:hover,
@@ -5765,7 +5766,7 @@ footer.entry-meta {
   color: #fbfaf3;
 }
 
-/* line 1156, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1157, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-audio .audio-content {
   background: url(/wp-content/themes/pub/twentythirteen/images/dotted-line.png) repeat-y left top;
   background-size: 4px 4px;
@@ -5776,7 +5777,7 @@ footer.entry-meta {
   width: calc(100% - 85px);
 }
 
-/* line 1166, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1167, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-audio .wp-audio-shortcode {
   height: 30px !important;
   /* Override mediaelement.js style */
@@ -5785,47 +5786,47 @@ footer.entry-meta {
   /* Override mediaelement.js style */
 }
 
-/* line 1172, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1173, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-audio audio {
   max-width: 100% !important;
   /* Avoid player width overflow. */
 }
 
 /* Chat */
-/* line 1177, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1178, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-chat {
   background-color: #eadaa6;
 }
 
-/* line 1181, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1182, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-chat .entry-title {
   font-size: 28px;
   font-weight: bold;
 }
 
-/* line 1187, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1188, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-chat .entry-meta a,
 .format-chat .entry-content a {
   color: #722d19;
 }
 
-/* line 1191, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1192, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-chat .entry-meta .date a:before {
   content: "\f108";
   margin-right: 2px;
 }
 
-/* line 1196, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1197, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-chat .entry-meta .author {
   display: none;
 }
 
-/* line 1200, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1201, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-chat .chat {
   margin: 0;
 }
 
-/* line 1204, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1205, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-chat .chat .chat-timestamp {
   color: #722d19;
   float: right;
@@ -5834,67 +5835,67 @@ footer.entry-meta {
   margin: 5px 10px 0;
 }
 
-/* line 1212, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1213, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-chat .chat .fn {
   font-style: normal;
 }
 
 /* Gallery */
-/* line 1217, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1218, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-gallery {
   background-color: #fbca3c;
 }
 
-/* line 1221, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1222, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-gallery .entry-header {
   margin-bottom: 15px;
 }
 
-/* line 1225, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1226, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-gallery .entry-title {
   font-size: 50px;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 1232, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1233, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-gallery .entry-meta a,
 .format-gallery .entry-content a {
   color: #722d19;
 }
 
 /* Image */
-/* line 1237, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1238, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-image .entry-title {
   font-size: 28px;
   font-weight: bold;
 }
 
-/* line 1243, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1244, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-image .categories-links,
 .format-image .tags-links {
   display: none;
 }
 
 /* Link */
-/* line 1248, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1249, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-link {
   background-color: #f7f5e7;
 }
 
-/* line 1253, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1254, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .blog .format-link:first-of-type,
 .single .format-link:first-of-type {
   box-shadow: inset 0 2px 2px rgba(173, 165, 105, 0.2);
 }
 
-/* line 1258, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1259, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-link .entry-header,
 .format-link .entry-content p:last-child {
   margin-bottom: 0;
 }
 
-/* line 1262, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1263, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-link .entry-title {
   color: #ca3c08;
   display: inline;
@@ -5902,18 +5903,18 @@ footer.entry-meta {
   margin-right: 20px;
 }
 
-/* line 1269, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1270, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-link .entry-title a {
   color: #bc360a;
 }
 
-/* line 1273, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1274, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-link div.entry-meta {
   display: inline;
 }
 
 /* Standard */
-/* line 1281, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1282, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-standard .wp-video,
 .format-standard .wp-audio-shortcode,
 .format-audio .wp-audio-shortcode,
@@ -5922,49 +5923,49 @@ footer.entry-meta {
 }
 
 /* Quote */
-/* line 1286, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1287, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-quote {
   background-color: #210d10;
 }
 
-/* line 1291, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1292, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-quote .entry-content,
 .format-quote .entry-meta {
   color: #f7f5e7;
 }
 
-/* line 1295, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1296, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-quote .entry-content blockquote {
   font-size: 28px;
   margin: 0;
 }
 
-/* line 1302, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1303, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-quote .entry-content a,
 .format-quote .entry-meta a,
 .format-quote .linked {
   color: #e63f2a;
 }
 
-/* line 1306, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1307, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-quote .entry-content cite a {
   border-bottom: 1px dotted #fff;
   color: #fff;
 }
 
-/* line 1311, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1312, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-quote .entry-content cite a:hover {
   text-decoration: none;
 }
 
-/* line 1316, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1317, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-quote blockquote small,
 .format-quote blockquote cite {
   display: block;
   font-size: 16px;
 }
 
-/* line 1321, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1322, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-quote blockquote {
   font-style: italic;
   font-weight: 300;
@@ -5972,7 +5973,7 @@ footer.entry-meta {
   position: relative;
 }
 
-/* line 1328, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1329, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-quote blockquote:before {
   content: '\201C';
   font-size: 140px;
@@ -5984,42 +5985,42 @@ footer.entry-meta {
   top: -3px;
 }
 
-/* line 1339, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1340, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-quote .entry-meta .author {
   display: none;
 }
 
 /* Status */
-/* line 1344, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1345, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status {
   background-color: #722d19;
   padding: 0;
 }
 
-/* line 1350, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1351, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .entry-content,
 .format-status .entry-meta {
   padding-left: 35px;
   position: relative;
 }
 
-/* line 1355, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1356, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .entry-content a {
   color: #eadaa6;
 }
 
-/* line 1359, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1360, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .entry-meta a {
   color: #f7f5e7;
 }
 
-/* line 1364, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1365, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .sidebar .format-status .entry-content,
 .sidebar .format-status .entry-meta {
   padding-left: 95px;
 }
 
-/* line 1369, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1370, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .entry-content:before,
 .format-status .entry-meta:before {
   background: url(/wp-content/themes/pub/twentythirteen/images/dotted-line.png) repeat-y left bottom;
@@ -6033,25 +6034,25 @@ footer.entry-meta {
   width: 1px;
 }
 
-/* line 1382, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1383, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .sidebar .format-status .entry-content:before,
 .sidebar .format-status .entry-meta:before {
   left: 70px;
 }
 
-/* line 1387, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1388, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .categories-links,
 .format-status .tags-links {
   display: none;
 }
 
 /* Ensures the dots in the dot background are in lockstep. */
-/* line 1392, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1393, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .entry-meta:before {
   background-position: left top;
 }
 
-/* line 1396, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1397, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .entry-content {
   color: #f7f5e7;
   font-size: 24px;
@@ -6062,7 +6063,7 @@ footer.entry-meta {
   position: relative;
 }
 
-/* line 1406, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1407, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .entry-content p:first-child:before {
   background-color: rgba(0, 0, 0, 0.65);
   content: "";
@@ -6073,34 +6074,34 @@ footer.entry-meta {
   width: 13px;
 }
 
-/* line 1416, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1417, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .sidebar .format-status .entry-content > p:first-child:before {
   left: 64px;
 }
 
-/* line 1420, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1421, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .entry-content p:last-child {
   margin-bottom: 0;
 }
 
-/* line 1424, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1425, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .entry-meta {
   margin-top: 0;
   padding-bottom: 40px;
 }
 
-/* line 1429, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1430, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-status .entry-meta .date a:before {
   content: "\f105";
 }
 
 /* Video */
-/* line 1434, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1435, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-video {
   background-color: #db572f;
 }
 
-/* line 1441, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1442, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-video .entry-content a,
 .format-video .entry-meta a,
 .format-video .entry-content a:hover,
@@ -6108,13 +6109,13 @@ footer.entry-meta {
   color: #fbfaf3;
 }
 
-/* line 1445, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1446, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-video .entry-title {
   font-size: 50px;
   font-weight: 400;
 }
 
-/* line 1450, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1451, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .format-video .entry-meta {
   color: #220e10;
 }
@@ -6123,21 +6124,21 @@ footer.entry-meta {
  * 5.6 Attachments
  * ----------------------------------------------------------------------------
  */
-/* line 1460, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1461, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .hentry {
   background-color: #e8e5ce;
   margin: 0;
   padding: 0;
 }
 
-/* line 1466, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1467, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-header {
   margin-bottom: 0;
   max-width: 1040px;
   padding: 30px 0;
 }
 
-/* line 1472, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1473, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-title {
   display: inline-block;
   float: left;
@@ -6145,14 +6146,14 @@ footer.entry-meta {
   margin: 0;
 }
 
-/* line 1479, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1480, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-title:before {
   content: "\f416";
   font-size: 32px;
   margin-right: 10px;
 }
 
-/* line 1485, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1486, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-meta {
   clear: none;
   color: inherit;
@@ -6162,82 +6163,82 @@ footer.entry-meta {
   text-align: right;
 }
 
-/* line 1494, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1495, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .hentry.attachment:not(.image-attachment) .entry-meta {
   max-width: 104px;
 }
 
-/* line 1498, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1499, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment footer.entry-meta {
   display: none;
 }
 
-/* line 1502, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1503, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment-meta:before {
   content: "\f307";
 }
 
-/* line 1506, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1507, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .full-size-link a:before {
   content: "\f402";
 }
 
-/* line 1510, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1511, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .full-size-link:before {
   content: none;
 }
 
-/* line 1516, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1517, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-meta a,
 .attachment .entry-meta .edit-link:before,
 .attachment .full-size-link:before {
   color: #ca3c08;
 }
 
-/* line 1520, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1521, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-content {
   background-color: #fff;
   max-width: 100%;
   padding: 40px 0;
 }
 
-/* line 1526, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1527, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .image-navigation {
   margin: 0 auto;
   max-width: 1040px;
   position: relative;
 }
 
-/* line 1532, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1533, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .image-navigation a:hover {
   text-decoration: none;
 }
 
-/* line 1537, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1538, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .image-navigation .nav-previous,
 .image-navigation .nav-next {
   position: absolute;
   top: 50px;
 }
 
-/* line 1542, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1543, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .image-navigation .nav-previous {
   left: 0;
 }
 
-/* line 1546, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1547, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .image-navigation .nav-next {
   right: 0;
 }
 
-/* line 1550, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1551, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .image-navigation .meta-nav {
   font-size: 32px;
   font-weight: 300;
   vertical-align: -4px;
 }
 
-/* line 1557, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1558, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-attachment,
 .attachment .type-attachment p {
   margin: 0 auto;
@@ -6245,45 +6246,45 @@ footer.entry-meta {
   text-align: center;
 }
 
-/* line 1563, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1564, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-attachment .attachment {
   display: inline-block;
 }
 
-/* line 1567, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1568, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-caption {
   text-align: left;
 }
 
-/* line 1571, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1572, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-description {
   margin: 20px auto 0;
   max-width: 604px;
 }
 
-/* line 1577, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1578, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-caption p:last-child,
 .attachment .entry-description p:last-child {
   margin: 0;
 }
 
-/* line 1581, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1582, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .site-main .sidebar-container {
   display: none;
 }
 
-/* line 1585, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1586, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-content .mejs-audio {
   max-width: 400px;
   margin: 0 auto;
 }
 
-/* line 1590, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1591, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-content .wp-video {
   margin: 0 auto;
 }
 
-/* line 1594, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1595, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .attachment .entry-content .mejs-container {
   margin-bottom: 24px;
 }
@@ -6296,7 +6297,7 @@ footer.entry-meta {
  * 5.8 Author Bio
  * ----------------------------------------------------------------------------
  */
-/* line 1608, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1609, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .author-info {
   margin: 0 auto;
   max-width: 604px;
@@ -6306,42 +6307,42 @@ footer.entry-meta {
   width: 100%;
 }
 
-/* line 1616, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1617, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .author.sidebar .author-info {
   max-width: 1040px;
   padding: 30px 376px 10px 60px;
 }
 
-/* line 1621, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1622, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .single .author-info {
   padding: 50px 0 0;
 }
 
-/* line 1625, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1626, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .author-avatar .avatar {
   float: left;
   margin: 0 30px 30px 0;
 }
 
-/* line 1630, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1631, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .single-format-status .author-description {
   color: #f7f5e7;
 }
 
-/* line 1634, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1635, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .author-description .author-title {
   clear: none;
   font: 300 italic 20px "Source Sans Pro", Helvetica, sans-serif;
   margin: 0 0 8px;
 }
 
-/* line 1640, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1641, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .author-link {
   color: #ca3c08;
   margin-left: 2px;
 }
 
-/* line 1645, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1646, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .author.archive .author-link {
   display: none;
 }
@@ -6350,12 +6351,12 @@ footer.entry-meta {
  * 5.9 Archives
  * ----------------------------------------------------------------------------
  */
-/* line 1655, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1656, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .archive-header {
   background-color: #e8e5ce;
 }
 
-/* line 1660, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1661, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .archive-title,
 .archive-meta {
   font: 300 italic 30px "Source Sans Pro", Helvetica, sans-serif;
@@ -6365,7 +6366,7 @@ footer.entry-meta {
   width: 100%;
 }
 
-/* line 1668, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1669, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .archive-meta {
   font-size: 16px;
   font-style: normal;
@@ -6374,7 +6375,7 @@ footer.entry-meta {
   padding: 0 0 11px;
 }
 
-/* line 1676, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1677, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .sidebar .archive-meta {
   padding-right: 316px;
 }
@@ -6383,12 +6384,12 @@ footer.entry-meta {
  * 5.10 Search Results/No posts
  * ----------------------------------------------------------------------------
  */
-/* line 1686, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1687, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .page-header {
   background-color: #e8e5ce;
 }
 
-/* line 1690, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1691, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .page-title {
   font: 300 italic 30px "Source Sans Pro", Helvetica, sans-serif;
   margin: 0 auto;
@@ -6397,7 +6398,7 @@ footer.entry-meta {
   width: 100%;
 }
 
-/* line 1698, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1699, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .page-content {
   margin: 0 auto;
   max-width: 604px;
@@ -6405,7 +6406,7 @@ footer.entry-meta {
   width: 100%;
 }
 
-/* line 1705, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1706, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .sidebar .page-content {
   margin: 0 auto;
   max-width: 1040px;
@@ -6416,12 +6417,12 @@ footer.entry-meta {
  * 5.11 404
  * ----------------------------------------------------------------------------
  */
-/* line 1717, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1718, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .error404 .page-header {
   background-color: #fff;
 }
 
-/* line 1721, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1722, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .error404 .page-title {
   line-height: 0.6;
   margin: 0;
@@ -6431,7 +6432,7 @@ footer.entry-meta {
   width: auto;
 }
 
-/* line 1730, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1731, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .error404 .page-title:before {
   color: #e8e5ce;
   content: "\f423";
@@ -6443,12 +6444,12 @@ footer.entry-meta {
   top: 28px;
 }
 
-/* line 1741, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1742, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .error404 .page-wrapper {
   background-color: #e8e5ce;
 }
 
-/* line 1746, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1747, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .error404 .page-header,
 .error404 .page-content {
   margin: 0 auto;
@@ -6461,7 +6462,7 @@ footer.entry-meta {
  * 5.12 Comments
  * ----------------------------------------------------------------------------
  */
-/* line 1764, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1765, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comments-title,
 .comment-list,
 .comment-reply-title,
@@ -6475,7 +6476,7 @@ footer.entry-meta {
   width: 100%;
 }
 
-/* line 1777, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1778, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .sidebar .comments-title,
 .sidebar .comment-list,
 .sidebar .must-log-in,
@@ -6487,24 +6488,24 @@ footer.entry-meta {
   padding-right: 376px;
 }
 
-/* line 1783, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1784, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comments-title {
   font: 300 italic 28px "Source Sans Pro", Helvetica, sans-serif;
 }
 
-/* line 1788, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1789, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-list,
 .comment-list .children {
   list-style-type: none;
   padding: 0;
 }
 
-/* line 1793, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1794, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-list .children {
   margin-left: 20px;
 }
 
-/* line 1798, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1799, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-list > li:after,
 .comment-list .children > li:before {
   background: url(/wp-content/themes/pub/twentythirteen/images/dotted-line.png) repeat left top;
@@ -6515,35 +6516,35 @@ footer.entry-meta {
   width: 100%;
 }
 
-/* line 1807, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1808, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-list > li:last-child:after {
   display: none;
 }
 
-/* line 1811, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1812, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-body {
   padding: 24px 0;
   position: relative;
 }
 
-/* line 1816, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1817, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-author {
   float: left;
   max-width: 74px;
 }
 
-/* line 1821, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1822, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-author .avatar {
   display: block;
   margin-bottom: 10px;
 }
 
-/* line 1826, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1827, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-author .fn {
   word-wrap: break-word;
 }
 
-/* line 1833, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1834, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-author .fn,
 .comment-author .url,
 .comment-reply-link,
@@ -6554,37 +6555,37 @@ footer.entry-meta {
   font-weight: normal;
 }
 
-/* line 1840, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1841, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .says {
   display: none;
 }
 
-/* line 1844, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1845, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .no-avatars .comment-author {
   margin: 0 0 5px;
   max-width: 100%;
   position: relative;
 }
 
-/* line 1852, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1853, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .no-avatars .comment-metadata,
 .no-avatars .comment-content,
 .no-avatars .comment-list .reply {
   width: 100%;
 }
 
-/* line 1856, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1857, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .bypostauthor > .comment-body .fn:before {
   content: "\f408";
   vertical-align: text-top;
 }
 
-/* line 1861, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1862, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-list .edit-link {
   margin-left: 20px;
 }
 
-/* line 1868, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1869, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-metadata,
 .comment-awaiting-moderation,
 .comment-content,
@@ -6596,36 +6597,36 @@ footer.entry-meta {
   word-wrap: break-word;
 }
 
-/* line 1877, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1878, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-meta,
 .comment-meta a {
   color: #a2a2a2;
   font-size: 13px;
 }
 
-/* line 1882, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1883, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-meta a:hover {
   color: #ea9629;
 }
 
-/* line 1886, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1887, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-metadata {
   margin-bottom: 20px;
 }
 
-/* line 1890, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1891, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .ping-meta {
   color: #a2a2a2;
   font-size: 13px;
   line-height: 2;
 }
 
-/* line 1896, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1897, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-awaiting-moderation {
   color: #a2a2a2;
 }
 
-/* line 1900, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1901, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-awaiting-moderation:before {
   content: "\f414";
   margin-right: 5px;
@@ -6633,7 +6634,7 @@ footer.entry-meta {
   top: -2px;
 }
 
-/* line 1908, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1909, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-reply-link:before,
 .comment-reply-login:before {
   content: "\f412";
@@ -6641,24 +6642,24 @@ footer.entry-meta {
 }
 
 /* Comment form */
-/* line 1914, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1915, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-respond {
   background-color: #f7f5e7;
   padding: 30px 0;
 }
 
-/* line 1919, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1920, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment .comment-respond {
   margin-bottom: 20px;
   padding: 20px;
 }
 
-/* line 1924, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1925, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-reply-title {
   font: 300 italic 28px "Source Sans Pro", Helvetica, sans-serif;
 }
 
-/* line 1928, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1929, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-reply-title small a {
   color: #131310;
   display: inline-block;
@@ -6668,37 +6669,37 @@ footer.entry-meta {
   width: 16px;
 }
 
-/* line 1937, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1938, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-reply-title small a:hover {
   color: #ed331c;
   text-decoration: none;
 }
 
-/* line 1942, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1943, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-reply-title small a:before {
   content: "\f406";
   vertical-align: top;
 }
 
-/* line 1948, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1949, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .sidebar .comment-list .comment-reply-title,
 .sidebar .comment-list .comment-respond .comment-form {
   padding: 0;
 }
 
-/* line 1952, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1953, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-form .comment-notes {
   margin-bottom: 15px;
 }
 
-/* line 1958, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1959, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-form .comment-form-author,
 .comment-form .comment-form-email,
 .comment-form .comment-form-url {
   margin-bottom: 8px;
 }
 
-/* line 1965, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1966, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-form [for="author"],
 .comment-form [for="email"],
 .comment-form [for="url"],
@@ -6708,12 +6709,12 @@ footer.entry-meta {
   width: 120px;
 }
 
-/* line 1971, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1972, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-form .required {
   color: #ed331c;
 }
 
-/* line 1977, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1978, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-form input[type="text"],
 .comment-form input[type="email"],
 .comment-form input[type="url"] {
@@ -6721,31 +6722,31 @@ footer.entry-meta {
   width: 60%;
 }
 
-/* line 1982, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1983, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-form textarea {
   width: 100%;
 }
 
-/* line 1987, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1988, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .form-allowed-tags,
 .form-allowed-tags code {
   color: #686758;
   font-size: 12px;
 }
 
-/* line 1992, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1993, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .form-allowed-tags code {
   font-size: 10px;
   margin-left: 3px;
 }
 
-/* line 1998, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 1999, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-list .pingback,
 .comment-list .trackback {
   padding-top: 24px;
 }
 
-/* line 2002, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2003, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .comment-navigation {
   font-size: 20px;
   font-style: italic;
@@ -6756,7 +6757,7 @@ footer.entry-meta {
   width: 100%;
 }
 
-/* line 2012, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2013, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .no-comments {
   background-color: #f7f5e7;
   font-size: 20px;
@@ -6767,7 +6768,7 @@ footer.entry-meta {
   text-align: center;
 }
 
-/* line 2022, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2023, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .sidebar .no-comments {
   padding-left: 60px;
   padding-right: 376px;
@@ -6785,7 +6786,7 @@ footer.entry-meta {
  * 6.1 Widgets
  * ----------------------------------------------------------------------------
  */
-/* line 2046, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2047, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget {
   background-color: rgba(247, 245, 231, 0.7);
   font-size: 14px;
@@ -6798,13 +6799,13 @@ footer.entry-meta {
   word-wrap: break-word;
 }
 
-/* line 2058, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2059, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget .widget-title {
   font: 300 italic 20px "Source Sans Pro", Helvetica, sans-serif;
   margin: 0 0 10px;
 }
 
-/* line 2064, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2065, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget ul,
 .widget ol {
   list-style-type: none;
@@ -6812,52 +6813,52 @@ footer.entry-meta {
   padding: 0;
 }
 
-/* line 2070, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2071, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget li {
   padding: 5px 0;
 }
 
-/* line 2074, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2075, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget .children li:last-child {
   padding-bottom: 0;
 }
 
-/* line 2079, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2080, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget li > ul,
 .widget li > ol {
   margin-left: 20px;
 }
 
-/* line 2083, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2084, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget a {
   color: #bc360a;
 }
 
-/* line 2087, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2088, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget a:hover {
   color: #ea9629;
 }
 
 /* Search widget */
-/* line 2092, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2093, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .search-form .search-submit {
   display: none;
 }
 
 /* RSS Widget */
-/* line 2097, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2098, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget_rss .rss-date {
   display: block;
 }
 
-/* line 2102, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2103, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget_rss .rss-date,
 .widget_rss li > cite {
   color: #a2a2a2;
 }
 
 /* Calendar Widget */
-/* line 2108, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2109, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget_calendar table,
 .widget_calendar td {
   border: 0;
@@ -6865,40 +6866,40 @@ footer.entry-meta {
   border-spacing: 1px;
 }
 
-/* line 2114, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2115, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget_calendar caption {
   font-size: 14px;
   margin: 0;
 }
 
-/* line 2120, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2121, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget_calendar th,
 .widget_calendar td {
   padding: 0;
   text-align: center;
 }
 
-/* line 2125, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2126, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget_calendar a {
   display: block;
 }
 
-/* line 2129, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2130, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget_calendar a:hover {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
-/* line 2133, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2134, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget_calendar tbody td {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 2137, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2138, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .site-footer .widget_calendar tbody td {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-/* line 2141, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+/* line 2142, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
 .widget_calendar tbody .pad, .site-footer .widget_calendar tbody .pad {
   background-color: transparent;
 }
@@ -6925,30 +6926,30 @@ footer.entry-meta {
 }
 
 @media (max-width: 1599px) {
-  /* line 2170, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2171, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .site {
     border: 0;
   }
 }
 
 @media (max-width: 1069px) {
-  /* line 2177, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2178, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .sidebar img.alignleft,
   .sidebar .wp-caption.alignleft {
     margin-left: 0;
   }
-  /* line 2182, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2183, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .sidebar img.alignright,
   .sidebar .wp-caption.alignright {
     margin-right: 0;
   }
-  /* line 2186, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2187, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .error404 .page-header {
     margin-left: auto;
     max-width: 604px;
     width: 100%;
   }
-  /* line 2203, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2204, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .archive-header,
   .search .page-header,
   .archive .page-header,
@@ -6964,32 +6965,32 @@ footer.entry-meta {
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 2208, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2209, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .error404 .page-title {
     font-size: 24px;
     padding: 180px;
   }
-  /* line 2213, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2214, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .error404 .page-title:before {
     font-size: 554px;
   }
-  /* line 2217, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2218, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .attachment .image-navigation {
     max-width: 724px;
   }
-  /* line 2222, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2223, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .image-navigation .nav-previous,
   .image-navigation .nav-next {
     position: static;
   }
-  /* line 2226, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2227, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .site-main .widget-area {
     margin-right: 60px;
   }
 }
 
 @media (max-width: 999px) {
-  /* line 2242, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2243, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .sidebar .entry-header,
   .sidebar .entry-content,
   .sidebar .entry-summary,
@@ -7005,7 +7006,7 @@ footer.entry-meta {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 2252, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2253, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .sidebar .site-info,
   .search.sidebar .page-content,
   .blog.sidebar .page-content,
@@ -7013,7 +7014,7 @@ footer.entry-meta {
   .sidebar .comments-title {
     max-width: 604px;
   }
-  /* line 2262, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2263, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .sidebar .archive-meta,
   .attachment .entry-header,
   .search.sidebar .page-content,
@@ -7024,44 +7025,44 @@ footer.entry-meta {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 2267, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2268, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .attachment .entry-meta {
     float: left;
     text-align: left;
     width: 100%;
   }
-  /* line 2273, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2274, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .attachment .entry-content {
     max-width: 100%;
     padding: 40px 0;
   }
-  /* line 2278, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2279, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .format-status .entry-content {
     padding-top: 40px;
   }
-  /* line 2282, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2283, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .format-status .entry-meta {
     padding-bottom: 40px;
   }
-  /* line 2287, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2288, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .sidebar .format-status .entry-content,
   .sidebar .format-status .entry-meta {
     padding-left: 35px;
   }
-  /* line 2292, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2293, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .sidebar .format-status .entry-content:before,
   .sidebar .format-status .entry-meta:before {
     left: 10px;
   }
-  /* line 2296, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2297, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .sidebar .format-status .entry-content p:first-child:before {
     left: 4px;
   }
-  /* line 2300, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2301, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .sidebar .paging-navigation .nav-links {
     padding: 0 60px;
   }
-  /* line 2304, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2305, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .site-main .sidebar-container {
     height: auto;
     margin: 0 auto;
@@ -7069,13 +7070,13 @@ footer.entry-meta {
     position: relative;
     top: 20px;
   }
-  /* line 2312, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2313, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .site-main .widget-area {
     float: none;
     margin: 0;
     width: 100%;
   }
-  /* line 2318, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2319, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .sidebar .site-footer .widget-area {
     max-width: 100%;
     left: 0;
@@ -7084,44 +7085,44 @@ footer.entry-meta {
 
 /* Collapse oversized image and pulled images after iPad breakpoint. */
 @media (max-width: 767px) {
-  /* line 2326, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2327, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .site-header .home-link {
     min-height: 0;
   }
-  /* line 2329, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2330, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .site-title {
     font-size: 36px;
     padding: 8px 0 10px;
   }
-  /* line 2334, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2335, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .entry-content img.alignleft,
   .entry-content .wp-caption.alignleft {
     margin-left: 0;
   }
-  /* line 2339, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2340, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .entry-content img.alignright,
   .entry-content .wp-caption.alignright {
     margin-right: 0;
   }
-  /* line 2344, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2345, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .attachment .image-navigation,
   .attachment .entry-attachment .attachment {
     max-width: 604px;
     padding: 0;
     width: 100%;
   }
-  /* line 2350, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2351, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .gallery-caption {
     display: none;
   }
 }
 
 @media (max-width: 643px) {
-  /* line 2356, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2357, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .site-title {
     font-size: 30px;
   }
-  /* line 2375, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2376, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   #content .entry-header,
   #content .entry-content,
   #content .entry-summary,
@@ -7141,20 +7142,20 @@ footer.entry-meta {
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 2381, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2382, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   #content .format-status .entry-content,
   #content .format-status .entry-met {
     padding-left: 35px;
   }
   /* Small menu */
-  /* line 2386, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2387, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .menu-toggle {
     cursor: pointer;
     display: inline-block;
     font: bold 16px/1.3 "Source Sans Pro", Helvetica, sans-serif;
     margin: 0;
   }
-  /* line 2396, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2397, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .menu-toggle,
   .menu-toggle:hover,
   .menu-toggle:focus,
@@ -7164,23 +7165,23 @@ footer.entry-meta {
     color: #141412;
     padding: 12px 0 12px 20px;
   }
-  /* line 2403, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2404, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .menu-toggle:focus {
     outline: thin dotted;
   }
-  /* line 2407, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2408, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .menu-toggle:after {
     content: "\f502";
     font-size: 12px;
     padding-left: 8px;
     vertical-align: -4px;
   }
-  /* line 2414, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2415, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .toggled-on .menu-toggle:after {
     content: "\f500";
     vertical-align: 2px;
   }
-  /* line 2420, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2421, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .toggled-on .nav-menu,
   .toggled-on .nav-menu > ul {
     display: block;
@@ -7188,12 +7189,12 @@ footer.entry-meta {
     padding: 0;
     width: 100%;
   }
-  /* line 2428, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2429, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .toggled-on li,
   .toggled-on .children {
     display: block;
   }
-  /* line 2432, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2433, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .toggled-on .nav-menu li > ul {
     background-color: transparent;
     display: block;
@@ -7203,44 +7204,44 @@ footer.entry-meta {
     left: auto;
     top: auto;
   }
-  /* line 2442, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2443, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .toggled-on .nav-menu li > ul a {
     color: #141412;
     width: auto;
   }
-  /* line 2448, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2449, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .toggled-on .nav-menu li:hover > a,
   .toggled-on .nav-menu .children a {
     background-color: transparent;
     color: #141412;
   }
-  /* line 2454, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2455, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .toggled-on .nav-menu > li a:hover,
   .toggled-on .nav-menu > ul a:hover {
     background-color: #db572f;
     color: #fff;
   }
-  /* line 2460, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2461, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .toggled-on .nav-menu > li a:focus,
   .toggled-on .nav-menu > ul a:focus {
     background-color: #220e10;
     color: #fff;
   }
-  /* line 2466, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2467, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   ul.nav-menu,
   div.nav-menu > ul {
     display: none;
   }
-  /* line 2470, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2471, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   #content .featured-gallery {
     padding-left: 24px;
   }
-  /* line 2474, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2475, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .gallery-columns-1 .gallery-item {
     margin-right: 0;
     width: 100%;
   }
-  /* line 2483, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2484, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .entry-title,
   .format-chat .entry-title,
   .format-image .entry-title,
@@ -7249,34 +7250,34 @@ footer.entry-meta {
     font-size: 22px;
     font-weight: bold;
   }
-  /* line 2489, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2490, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .format-quote blockquote,
   .format-status .entry-content {
     font-size: 18px;
   }
-  /* line 2494, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2495, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .format-quote blockquote small,
   .format-quote blockquote cite {
     font-size: 13px;
   }
-  /* line 2498, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2499, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .error404 .page-title {
     padding: 40px 0 0;
   }
-  /* line 2502, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2503, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .error404 .page-title:before {
     content: normal;
   }
-  /* line 2506, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2507, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .comment-author {
     margin-right: 30px;
   }
-  /* line 2510, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2511, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .comment-author .avatar {
     height: auto;
     max-width: 100%;
   }
-  /* line 2517, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2518, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .comment-metadata,
   .comment-content,
   .comment-list .reply {
@@ -7284,24 +7285,24 @@ footer.entry-meta {
     width: -webkit-calc(100% - 104px);
     width: calc(100% - 104px);
   }
-  /* line 2525, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2526, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .comment-form input[type="text"],
   .comment-form input[type="email"],
   .comment-form input[type="url"] {
     width: -webkit-calc(100% - 120px);
     width: calc(100% - 120px);
   }
-  /* line 2530, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2531, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .comment-form textarea {
     height: 80px;
     /* Smaller field for mobile. */
   }
   /* Audio */
-  /* line 2535, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2536, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .format-audio .entry-content:before {
     display: none;
   }
-  /* line 2539, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2540, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .format-audio .audio-content {
     background-image: none;
     float: none;
@@ -7312,20 +7313,20 @@ footer.entry-meta {
 
 /* Mobile devices */
 @media (max-width: 359px) {
-  /* line 2549, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2550, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .site-title {
     font-weight: normal;
   }
-  /* line 2552, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2553, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .site-description {
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute;
   }
-  /* line 2556, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2557, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .gallery {
     margin-left: 0;
   }
-  /* line 2561, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2562, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .gallery .gallery-item,
   .gallery-columns-2.gallery-size-thumbnail .gallery-item {
     max-width: none;
@@ -7333,14 +7334,14 @@ footer.entry-meta {
     width: -webkit-calc(50% - 4px);
     width: calc(50% - 4px);
   }
-  /* line 2571, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2572, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .gallery-columns-1.gallery-size-medium,
   .gallery-columns-1.gallery-size-thumbnail,
   .gallery-columns-2.gallery-size-thumbnail,
   .gallery-columns-3.gallery-size-thumbnail {
     display: block;
   }
-  /* line 2577, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2578, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .gallery-columns-1 .gallery-item,
   .gallery-columns-1.gallery-size-medium .gallery-item,
   .gallery-columns-1.gallery-size-thumbnail .gallery-item {
@@ -7349,39 +7350,58 @@ footer.entry-meta {
     width: -webkit-calc(100% - 4px);
     width: calc(100% - 4px);
   }
-  /* line 2587, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2588, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .gallery-columns-3 .gallery-item:nth-of-type(3n),
   .gallery-columns-5 .gallery-item:nth-of-type(5n),
   .gallery-columns-7 .gallery-item:nth-of-type(7n),
   .gallery-columns-9 .gallery-item:nth-of-type(9n) {
     margin-right: 4px;
   }
-  /* line 2591, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2592, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .gallery br {
     display: none;
   }
-  /* line 2595, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2596, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .gallery .gallery-item:nth-of-type(even) {
     margin-right: 0;
   }
   /* Comments */
-  /* line 2600, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2601, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .comment-author {
     margin: 0 0 5px;
     max-width: 100%;
   }
-  /* line 2605, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2606, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .comment-author .avatar {
     display: inline;
     margin: 0 5px 0 0;
     max-width: 20px;
   }
-  /* line 2613, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+  /* line 2614, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
   .comment-metadata,
   .comment-content,
   .comment-list .reply {
     width: 100%;
   }
+}
+
+/* line 2619, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+.meta {
+  margin: 10px 0px;
+}
+
+/* line 2623, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+.post-categories {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2627, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/base/_wpcore.scss */
+.post-categories li {
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 /*------------------------------------*    SIDEBAR
@@ -11049,3 +11069,11 @@ div.gform_confirmation_wrapper.gf_confirmation_green_gradient:after {
 
 /*------------------------------------*    HOMEPAGE
 \*------------------------------------*/
+/*------------------------------------*    404 PAGE
+\*------------------------------------*/
+/* line 5, /Users/andrewatieh/Desktop/Websites/GruntStarter/wp-content/themes/Grunt-Starter-Theme/src/sass/pages/_404.scss */
+.not-found {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

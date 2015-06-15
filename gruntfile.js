@@ -42,33 +42,11 @@ module.exports = function(grunt){
                 }
 
         },
-        bowercopy: {
-            options: {
-                srcPrefix: 'bower_components'
-            },
-            scripts: {
-                options: {
-                    destPrefix: 'src/js/vendor'
-                },
-                files: {
-                    'jquery.js': 'jquery/src/jquery.js', //{deskPrefix} go here : {srcPrefix} get from here
-                    'fullpage.js': 'fullpage.js/jquery.fullpage.js' //{deskPrefix} go here : {srcPrefix} get from here
-                }
-            },
-            css: {
-                options: {
-                    destPrefix: 'src/sass/vendor'
-                },
-                files: {
-                    '_fullpage.scss': 'fullpage.js/jquery.fullPage.scss', //{deskPrefix} go here : {srcPrefix} get from here
-                    'font-awesome': 'font-awesome/scss' //{deskPrefix} go here : {srcPrefix} get from here
-                }
-            }
-        },
         uglify : {
             build :{
                 src :'src/js//**/*.js', //where the working js file lives (* is a wildcard)
                 dest: 'js/scripts.min.js' // where the final minified concatenated file lives (output file)
+
             },
             dev: {
                 options:{
@@ -79,6 +57,7 @@ module.exports = function(grunt){
                 },
                 src: 'src/js/**/*.js',
                 dest: 'js/scripts.min.js'
+
             }
         },
         sass: {                  // Task
@@ -86,6 +65,7 @@ module.exports = function(grunt){
                 options: {
                    lineNumbers:true,
                    sourceComments: 'true',
+                    sourceMap: 'style.css.map',
                    outputStyle:'expanded'
                 },
                 files: {
@@ -135,7 +115,6 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-wordpress-deploy');
     grunt.loadNpmTasks('grunt-mysql-dump');
-    grunt.loadNpmTasks('grunt-bowercopy');
 
     // Register Tasks
     grunt.registerTask('default', ['uglify:dev', 'sass:dev']);

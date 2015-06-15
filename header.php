@@ -7,9 +7,7 @@
     <meta name="description" content="<?php bloginfo( 'description' ); ?>">
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!-- Favicon and Apple Icons -->
     <?php echo add_favicons();?>
     <?php wp_head(); ?>
