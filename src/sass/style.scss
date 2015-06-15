@@ -4,9 +4,9 @@
 @import "vendor/font-awesome/font-awesome";
 
 @import "base/typography";
-@import "base/variables";
+@import "base/colors";
 @import "base/grid";
-@import "base/base"; //WP Core
+@import "base/wpcore";
 
 @import "layout/sidebar";
 @import "layout/footer";
@@ -16,10 +16,7 @@
 @import "bits/nav";
 @import "bits/social";
 @import "bits/pagination";
-@import "bits/searchbox";
 @import "bits/gravityforms";
-
-//@import "layout/blog";
 
 @import "pages/homepage";
 
