@@ -15,6 +15,8 @@ We can get into the goodies ive packed into this Starter Theme in a minute, firs
     * [grunt-wordpress-deploy](https://www.npmjs.com/package/grunt-wordpress-deploy)
     * [grunt-mysql-dump](https://www.npmjs.com/package/grunt-mysql-dump)
     * [grunt-bowercopy](https://www.npmjs.com/package/grunt-bowercopy)
+    
+    
 <!-- create new folder whereever you store your websites, and then 
     git clone https://github.com/Bardown26/WordPress.git
  -->
