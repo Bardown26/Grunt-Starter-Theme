@@ -64,10 +64,16 @@ Get rid of that now empty folder.
 > rm -r -f wordpress-starter
 ```
 
-5: Code!
+**4: Code!**
 
 ```Shell
 > grunt
+```
+
+##Development
+
+```Shell
+> grunt watch
 ```
 
 ##Building
@@ -78,6 +84,8 @@ When you are ready to push live, run the build command to minify your files.
 > grunt build
 ```
 
-##Thanks
+#Theme Goodies
 
-Thanks to the folks at [Bearded](http://bearded.com/). I stole some some pieces from their excellent starter kit, [Stubble](https://github.com/beardedstudio/stubble?source=cc).
+This wordpress theme is setup to my development process, which works very well for me, but may not work the best for you.
+
+##Thanks
