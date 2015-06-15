@@ -74,7 +74,6 @@ Note: *Make sure to add your proper localhost under the LIVE RELOAD section of t
 ```Shell
 > grunt watch
 ```
-Note: 
 
 ##Building
 
