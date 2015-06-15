@@ -44,26 +44,25 @@ From now on, all your work will be done in your Grunt-Starter-Theme directory.
 
 3: Now, Lets add the files from [this repository](https://github.com/Bardown26/wordpress-starter.git) to our root.
 
-Navigate to project root.
+*Navigate to project root.
 ```Shell
 > cd {project root directory}
 ```
 
-Add the repo folder.
+*Add the repo folder.
 ```Shell
 > git clone https://github.com/Bardown26/wordpress-starter.git
 ```
 
-Move the files from the repo to the root.
+*Move the files from the repo to the root.
 ```Shell
 > mv wordpress-starter/* .
 ```
 
-Get rid of that now empty folder.
+*Get rid of that now empty folder.
 ```Shell
 > rm -r -f wordpress-starter
 ```
-4: 
 
 5: Code!
 
