@@ -42,16 +42,17 @@ From now on, all your work will be done in your Grunt-Starter-Theme directory.
 > npm install
 ```
 
-3: Add wp-config.php and local-config.php
+3: Now, Lets add the files from this repo to our root.[this repository](https://github.com/Bardown26/wordpress-starter.git).
 
 ```Shell
 > cd {project root directory}
-> git clone https://github.com/Bardown26/wordpress-starter.git
-> mv wordpress-starter/* .
-> rm -r -f wordpress-starter
 ```
 
-4: Pull the wordpress starter files from [this repository](https://github.com/stinoga/wordpress-starter) and drop them in the root folder of the site.
+```Shell
+> git clone https://github.com/Bardown26/wordpress-starter.git
+```
+
+4: 
 
 5: Code!
 
