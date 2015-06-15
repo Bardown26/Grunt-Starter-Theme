@@ -70,7 +70,7 @@ Get rid of that now empty folder.
 ```Shell
 > grunt
 ```
-
+Note: *Make sure to add your proper localhost under the LIVE RELOAD section of the function.php for it to work* 
 
 
 ##Development

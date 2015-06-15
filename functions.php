@@ -38,35 +38,6 @@ define( 'SCRIPTS', THEMEROOT . '/js' );
 define( 'FRAMEWORK', get_template_directory() . '/framework' );
 
 /*------------------------------------*\
-    Load CMB2
-\*------------------------------------*/
-
-/**
- * If using the plugin from wordpress.org, REMOVE THIS!
- */
-
-if ( file_exists( dirname( __FILE__ ) . '/cmb2/init.php' ) ) {
-    require_once dirname( __FILE__ ) . '/cmb2/init.php';
-} elseif ( file_exists( dirname( __FILE__ ) . '/CMB2/init.php' ) ) {
-    require_once dirname( __FILE__ ) . '/CMB2/init.php';
-}
-
-/**
- * Conditionally displays a field when used as a callback in the 'show_on_cb' field parameter
- *
- * @param  CMB2_Field object $field Field object
- *
- * @return bool                     True if metabox should show
- */
-function cmb2_hide_if_no_cats( $field ) {
-    // Don't show this field if not in the cats category
-    if ( ! has_tag( 'cats', $field->object_id ) ) {
-        return false;
-    }
-    return true;
-}
-
-/*------------------------------------*\
     Load Framework
 \*------------------------------------*/
 
