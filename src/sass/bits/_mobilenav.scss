@@ -73,7 +73,12 @@
 .dl-menuwrapper li {
   position: relative;
   border-bottom: 1px solid $primary;
-
+}
+.dl-menuwrapper li li:last-child{
+  border-bottom:none;
+}
+.dl-menuwrapper li li li:last-child{
+  border-bottom:none;
 }
 
 .dl-menuwrapper li a {
@@ -832,3 +837,4 @@ All this is done for any sub-level being entered.
 .demo-5 .dl-menuwrapper ul {
   background: #643771;
 }
+
