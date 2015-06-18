@@ -15,11 +15,7 @@ We can get into the goodies ive packed into this Starter Theme in a minute, firs
     * [grunt-wordpress-deploy](https://www.npmjs.com/package/grunt-wordpress-deploy)
     * [grunt-mysql-dump](https://www.npmjs.com/package/grunt-mysql-dump)
     * [grunt-bowercopy](https://www.npmjs.com/package/grunt-bowercopy)
-* [jQuery](http://jquery.com/)
-* [modernizr](http://modernizr.com/)
-* [SASS](http://sass-lang.com/)
-* [breakpoint](http://breakpoint-sass.com/)
-* [normalize.css](http://necolas.github.com/normalize.css/)
+
 
 <!-- create new folder whereever you store your websites, and then 
     git clone https://github.com/Bardown26/WordPress.git
@@ -78,7 +74,6 @@ Note: *Make sure to add your proper localhost under the LIVE RELOAD section of t
 ```Shell
 > grunt watch
 ```
-Note: 
 
 ##Building
 
@@ -90,8 +85,7 @@ When you are ready to push live, run the build command to minify your files.
 
 #Theme Goodies
 
-This wordpress theme is setup to my development process, which works very well for me, but may not work the best for you.
-* [CMB2 Custom Meta Boxes](https://github.com/WebDevStudios/CMB2). I really love what these guys have done. It makes adding functionality to specific pages / posts / custom post types, anything really. 
-* 
+* [CMB2 Custom Meta Boxes](https://github.com/WebDevStudios/CMB2). I really love what these guys have done. It makes adding functionality to specific pages / posts / custom post types, anything really insanely easy and fast.
+* [breakpoint](http://breakpoint-sass.com/)
 
 ##Thanks
