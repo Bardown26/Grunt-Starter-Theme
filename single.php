@@ -15,7 +15,7 @@
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                     <h1><?php the_title();?></h1>
                     <div class="meta">
-                        Written by <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?></a> | <?php the_date();?> | <?php the_category( ', ');?>
+                        Written by <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?></a> | <?php the_time('F j, Y');?> | <?php the_category( ', ');?>
                     </div>
                     <?php the_content();?>
                 </article>
