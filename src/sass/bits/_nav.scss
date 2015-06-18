@@ -65,7 +65,9 @@
 
 #primary_nav_wrap
 {
-
+@include breakpoint (($small-break, $tablet)){
+  display: none;
+}
 }
 
 #primary_nav_wrap ul

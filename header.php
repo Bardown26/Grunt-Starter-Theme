@@ -33,4 +33,10 @@
             </nav>
         </div>
     </div>
+    <div class="mobile">
+        <div id="dl-menu" class="dl-menuwrapper">
+            <button class="dl-trigger"><i class="fa fa-bars"></i></button>
+            <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => false, 'menu_class' => 'dl-menu','walker' => new My_Walker_Nav_Menu() ) ); ?>
+        </div>
+    </div>
 </header>

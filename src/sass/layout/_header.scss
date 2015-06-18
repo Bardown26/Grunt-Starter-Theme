@@ -5,6 +5,7 @@
 header {
   height: 100px;
   border-bottom:1px solid #000;
+  position: relative;
   .site-logo {
     width:32.24%;
     @include breakpoint ($small-break){
