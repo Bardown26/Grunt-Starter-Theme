@@ -4,7 +4,6 @@ module.exports = function(grunt){
     // Configure Tasks
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-
             wordpressdeploy: {
                 options: {
                     backup_dir: "backups/",
