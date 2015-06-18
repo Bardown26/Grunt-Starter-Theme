@@ -44,20 +44,20 @@ module.exports = function(grunt){
         },
         uglify : {
             build :{
-                src :'src/js//**/*.js', //where the working js file lives (* is a wildcard)
+                src :'src/js/**/*.js', //where the working js file lives (* is a wildcard)
                 dest: 'js/scripts.min.js' // where the final minified concatenated file lives (output file)
 
             },
             dev: {
-                options:{
-                    beautify:true,
-                    mangle:false,
-                    compress:false,
+                options: {
+                    beautify: true,
+                    mangle: false,
+                    compress: false,
                     preserveComments: 'all'
                 },
-                src: 'src/js/**/*.js',
-                dest: 'js/scripts.min.js'
-
+                files: {
+                    'js/scripts.min.js': ['src/js/vendor/modernizr.custom.js', 'src/js/vendor/jquery.dlmenu.js', 'src/js/**/*.js']
+                }
             }
         },
         sass: {                  // Task
@@ -85,7 +85,7 @@ module.exports = function(grunt){
         watch: {
 
           js: {
-              files: ['src/js/*.js'],
+              files: ['src/js/**/*.js'],
               tasks: ['uglify:dev'],
               options : {
                   livereload : 35729
