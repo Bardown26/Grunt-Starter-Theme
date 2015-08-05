@@ -27,7 +27,6 @@
                         </div>
                         <?php the_excerpt();?>
                         <p class="more"><a class="orange-btn" href="<?php the_permalink();?>">Read More</a></p>
-
                     </article>
                 <?php endwhile; ?>
 
@@ -53,4 +52,4 @@
             </div>
         </div>
     </div>
-<?php get_footer(); ?>
+<?php get_footer(); ?> s
